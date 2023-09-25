@@ -1,0 +1,25 @@
+.nav_bg_dark {
+    background: var(--neutros-dark, #121113);
+    min-height: 40px !important;
+    padding-top: 3px;
+}
+
+.nav-link,
+.dot {
+    color: var(--Blanco, #FFF) !important;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.navbar {
+    padding: 0 !important;
+}
