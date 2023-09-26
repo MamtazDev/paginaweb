@@ -32,7 +32,7 @@ const Gallary = () => {
             <img src={g4} alt="" className="gallary_image" />
           </Col>
         </Row>
-        <Row>
+        <Row  style={{marginBottom:"80px"}}>
           <Col md={3} sm={12}>
             <img src={g5} alt="" className="gallary_image" />
           </Col>
