@@ -1,0 +1,104 @@
+/* .services_container{
+background-image: url('../../assets//sercices_car.gif');
+background-repeat: no-repeat;
+background-size: contain;
+} */
+.services_container {
+    position: relative;
+    height: 600px;
+}
+
+.services_container p {
+    color: var(--neutros-medium, #67626F);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.common_header {
+    color: var(--paleta-blue-dark, #002863);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 48px;
+}
+
+.service_card {
+    border-radius: 15px;
+    border: 1px solid #F5F5F5;
+    background: var(--neutros-white, #FFF);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    max-height: 174px !important;
+    height: 100%;
+}
+
+.card_desc span {
+    color: var(--paleta-blue-dark, #002863);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.96px;
+}
+
+.card_desc small {
+    color: var(--neutros-medium, #67626F);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.56px;
+}
+
+.car_gif {
+    background-image: url('../../assets//sercices_car.gif') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 28%;
+    right: -7%;
+    z-index: -999999999999999999 !important;
+}
+
+/* service 2  */
+/* .service_2_container {
+    margin-top: 80px;
+    border-radius: 20px;
+    background: var(--neutros-white, #FFF);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    height: 406px;
+
+}
+ */
+.common_header1 {
+    color: var(--paleta-blue-dark, #002863);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 8px;
+}
+
+.service2_left {
+    width: 100%;
+}
+
+.section2_right_img img {
+    width: 406px;
+    height: 406px;
+}
+
+/*  */

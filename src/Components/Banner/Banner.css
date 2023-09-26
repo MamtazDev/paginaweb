@@ -1,7 +1,5 @@
 .banner_bg {
-    background-color: #E6F6FE;
-    border-bottom-left-radius: 35% 34%;
-    border-bottom-right-radius: 35% 34%;
+background-image: url('../../assets/banner_bg.png');
     min-height: 280px;
     display: flex;
 
@@ -34,3 +32,6 @@
     margin: auto;
 
 }
+
+.service2_left{
+    padding: 121px 69px  0px ;}
