@@ -11,41 +11,42 @@ import g7 from "../../assets/g7.jpg";
 import g8 from "../../assets/g8.jpg";
 const Gallary = () => {
   return (
-    <div className="container_width">
+    <div className="container_width gallary_container">
       <div>
         <div className="common_subheader">
           <small>Siguenos en redes sociales</small>
           <p>Sigamos conectados en Instagram</p>
         </div>
-
-        <Row style={{marginBottom:"16px"}}>
-          <Col md={3} sm={12}>
-            <img src={g1} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g2} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g3} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g4} alt="" className="gallary_image" />
-          </Col>
-        </Row>
-        <Row  style={{marginBottom:"80px"}}>
-          <Col md={3} sm={12}>
-            <img src={g5} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g6} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g7} alt="" className="gallary_image" />
-          </Col>
-          <Col md={3} sm={12}>
-            <img src={g8} alt="" className="gallary_image" />
-          </Col>
-        </Row>
+        <div className="gallary_desktop">
+          <Row style={{ marginBottom: "16px" }}>
+            <Col md={3} sm={12}>
+              <img src={g1} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g2} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g3} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g4} alt="" className="gallary_image" />
+            </Col>
+          </Row>
+          <Row style={{ marginBottom: "80px" }}>
+            <Col md={3} sm={12}>
+              <img src={g5} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g6} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g7} alt="" className="gallary_image" />
+            </Col>
+            <Col md={3} sm={12}>
+              <img src={g8} alt="" className="gallary_image" />
+            </Col>
+          </Row>
+        </div>
       </div>
     </div>
   );

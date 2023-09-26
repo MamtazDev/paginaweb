@@ -8,11 +8,11 @@ import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#F5FCFF", zIndex: "-999999999999999999",position:"relative" }}>
       <Banner />
-      <TabsSection />
+      {/* <TabsSection /> */}
       <VeichlesInfo />
-      {/* <Services /> */}
+      <Services />
       <Service2 />
       <Gallary />
       <Questions />

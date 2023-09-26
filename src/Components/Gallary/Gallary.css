@@ -20,3 +20,20 @@
     border-radius: 5px;
     height: 270px;
 }
+
+@media (max-width:768px) {
+    .common_subheader small {
+        font-size: 12px;
+    }
+
+    .common_subheader p {
+        font-size: 24px;
+
+    }
+    .gallary_container{
+        margin: 32px !important;
+    }
+    .gallary_desktop{
+        display: none;
+    }
+}

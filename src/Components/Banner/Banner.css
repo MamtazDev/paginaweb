@@ -1,5 +1,5 @@
 .banner_bg {
-background-image: url('../../assets/banner_bg.png');
+    background-image: url('../../assets/banner_bg.png');
     min-height: 280px;
     display: flex;
 
@@ -33,5 +33,26 @@ background-image: url('../../assets/banner_bg.png');
 
 }
 
-.service2_left{
-    padding: 121px 69px  0px ;}
+.service2_left {
+    padding: 121px 69px 0px;
+}
+
+
+@media (max-width:768px) {
+    .blue_light_color {
+        font-size: 24px;
+        letter-spacing: -0.96px;
+    }
+
+    .de_veichle {
+
+        font-size: 24px;
+
+        letter-spacing: -0.96px;
+    }
+
+    .banner_text {
+        padding: 0px 32px;
+    }
+
+}

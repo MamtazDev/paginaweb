@@ -61,6 +61,7 @@
 
     .tab_design1 {
         width: 100% !important;
+        padding: 8px 16px !important;
 
     }
 
@@ -72,7 +73,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 140%;
-        /* 22.4px */
         letter-spacing: -0.64px;
     }
+
+
 }
