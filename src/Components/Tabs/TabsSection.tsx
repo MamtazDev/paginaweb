@@ -6,6 +6,8 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import "./Tabs.css";
 import Tab1 from "./Tab1";
+import Tab2 from "./Tab2";
+import Tab3 from "./Tab3";
 const TabsSection = () => {
   const [value, setValue] = React.useState("1");
 
@@ -54,8 +56,12 @@ const TabsSection = () => {
           <TabPanel value="1">
             <Tab1 />
           </TabPanel>
-          <TabPanel value="2">Item Two</TabPanel>
-          <TabPanel value="3">Item Three</TabPanel>
+          <TabPanel value="2">
+            <Tab2 />
+          </TabPanel>
+          <TabPanel value="3">
+            <Tab3 />
+          </TabPanel>
         </TabContext>
       </Box>
     </div>

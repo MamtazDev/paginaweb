@@ -114,7 +114,7 @@ button:focus {
 }
 
 .left_login {
-    max-width: 537px;
+    max-width: 560px;
     width: 100%;
     /* margin-right: 80px; */
 }
@@ -135,10 +135,17 @@ button:focus {
     background-color: transparent;
     margin-bottom: 36px;
 }
-.section2_container{
+
+.section2_container {
     margin: auto;
+    margin-top: 65px;
 }
-.login_form{}
+
+.login_form {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
 
 /* tab 1 login part design */
 .login_container {
@@ -197,4 +204,45 @@ label {
     text-align: center;
     padding: 8px 16px;
 
+}
+
+/* tab 2 */
+.tab2_login_last_text {
+    color: var(--paleta-blue-light, #50C0F9);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    gap: 8px;
+}
+
+/* tsb 3 */
+.form_select {
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    padding: 12px !important;
+    border: 0;
+    justify-content: space-between;
+}
+
+.select_design {
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    background: var(--neutros-white, #FFF);
+}
+
+.select_design:focus-visible {
+    border: 1px solid #EBEBEB;
+    background: var(--neutros-white, #FFF);
+}
+
+.select_container {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
 }
