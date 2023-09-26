@@ -1,0 +1,48 @@
+.VeichlesInfo {}
+
+.veichleInfo_margin {
+    border-radius: 20px;
+    background: var(--neutros-white, #FFF) !important;
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    margin: 80px 32px 119px 32px;
+    padding: 48px 48px 50px 48px;
+}
+
+.vinfo_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+
+}
+
+.vinfo_div h5 {
+    color: var(--paleta-blue-dark, #002863);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140% !important;
+}
+
+.vinfo_div small {
+    color: var(--neutros-medium, #67626F);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* 25.2px */
+}
+
+@media(max-width:768px) {
+    .vinfo_div {
+        margin-bottom: 32px !important;
+    }
+
+    .vinfo_div {
+        justify-content: start;
+
+
+    }
+}
