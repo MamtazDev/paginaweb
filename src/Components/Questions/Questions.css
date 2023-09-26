@@ -40,6 +40,10 @@
 }
 
 @media(max-width:768px) {
+    .row {
+        margin-right: 0px;
+    }
+
     .per_question {
         margin-bottom: 16px;
         max-width: 248px;
