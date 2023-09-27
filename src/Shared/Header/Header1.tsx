@@ -2,7 +2,7 @@ import "./Header.css";
 const Header1 = () => {
   return (
     <div className="nav_bg_dark">
-      <div className="navbar navbar-expand-lg navbar-dark container_width">
+      <div className="navbar navbar-expand-lg navbar-dark container_width sticky-top">
         <button
           className="navbar-toggler"
           type="button"
