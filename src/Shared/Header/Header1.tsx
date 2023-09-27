@@ -2,7 +2,7 @@ import "./Header.css";
 const Header1 = () => {
   return (
     <div className="nav_bg_dark">
-      <nav className="navbar navbar-expand-lg navbar-dark container_width">
+      <div className="navbar navbar-expand-lg navbar-dark container_width">
         <button
           className="navbar-toggler"
           type="button"
@@ -54,7 +54,7 @@ const Header1 = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     </div>
   );
 };

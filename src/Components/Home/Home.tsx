@@ -27,10 +27,10 @@ const Home = () => {
         <MobileTabs />
       </div>
       <VeichlesInfo />
-      <Services />
-      <Service2 />
+      {/* <Services /> */}
+      {/* <Service2 /> */}
       {/* <Gallary /> */}
-      <Questions />
+      {/* <Questions /> */}
       <CardCarousal />
     </div>
   );
