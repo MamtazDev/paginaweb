@@ -29,8 +29,8 @@
 /* header 2 */
 
 nav {
-    position: fixed;
-    z-index: 99;
+    /* position: fixed;
+    z-index: 99; */
     width: 100%;
     background: #F7F7F7;
 }

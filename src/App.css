@@ -6,6 +6,12 @@
     display: none;
 }
 
+.nav_fixed {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
     /* .row {
         margin-left: 0px !important;
@@ -44,20 +50,23 @@
     .tab_design {
         width: max-content !important;
     }
-/* service design */
+
+    /* service design */
     .car_gif {
         display: block;
         position: absolute;
-        top:53% !important;
-        right:50%;
+        top: 53% !important;
+        right: 50%;
         transform: translateX(50%);
         left: auto;
     }
-    .small_colum_mnobile{
+
+    .small_colum_mnobile {
         justify-content: center;
         width: 100%;
     }
-    .services_header_mobile{
+
+    .services_header_mobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
