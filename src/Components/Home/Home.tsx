@@ -30,7 +30,7 @@ const Home = () => {
       <Services />
       <Service2 />
       {/* <Gallary /> */}
-      {/* <Questions /> */}
+      <Questions />
       <CardCarousal />
     </div>
   );

@@ -47,12 +47,17 @@
     .de_veichle {
 
         font-size: 24px;
-
         letter-spacing: -0.96px;
     }
 
     .banner_text {
         padding: 0px 32px;
     }
-
+    .banner_bg {
+        margin-bottom: 49.5px;
+        background-image: url('../../assets/header_res.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
 }

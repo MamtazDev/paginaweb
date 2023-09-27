@@ -36,16 +36,29 @@
     padding-bottom: 58px;
 }
 
+.footer_padding_sm {
+    margin-right: 0px !important;
+    padding-left: 53px;
+}
 @media (max-width:768px) {
     .footer_padding_sm {
         padding: 32px;
     }
-    .copyright{
+
+    .copyright {
         text-align: left;
         padding-left: 32px;
     }
-    .hr_design{
+
+    .hr_design {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .footer_bg {
+        background-image: url('../../assets/footer_res.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 90px;
     }
 }

@@ -76,7 +76,7 @@
 }
 
 .service_2_container {
-    padding: 32px !important;
+    padding:0px 32px !important;
     border-radius: 20px;
     background: var(--neutros-white, #FFF);
     box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
@@ -208,7 +208,7 @@
 
     .mobile_car_gif img {
         width: 100%;
-        margin-bottom: 80px !important;
+        /* margin-bottom: 80px !important; */
     }
 
     .var_mas_info_text_mobile a {
