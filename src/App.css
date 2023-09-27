@@ -1,7 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&family=Work+Sans&display=swap');
 
-@media (max-width:768px){
-    .row{
+
+
+.mobile_tabs {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    /* .row {
         margin-left: 0px !important;
+    } */
+
+    .mobile_tabs {
+        display: flex;
+        margin: auto !important;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .desktop_tabs {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1114px) {
+
+    .mobile_tabs {
+        display: none;
+    }
+
+    .desktop_tabs {
+        display: block;
+        /* width: 100vw !important; */
+        /* overflow: hidden; */
+    }
+
+    .tab_design2 {
+        width: max-content !important;
+    }
+
+    .tab_design {
+        width: max-content !important;
+    }
+/* service design */
+    .car_gif {
+        display: block;
+        position: absolute;
+        top:53% !important;
+        right:50%;
+        transform: translateX(50%);
+        left: auto;
+    }
+    .small_colum_mnobile{
+        justify-content: center;
+        width: 100%;
+    }
+    .services_header_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-left: 50px; */
+        text-align: center;
     }
 }

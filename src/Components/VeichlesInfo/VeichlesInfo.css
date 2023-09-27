@@ -36,12 +36,15 @@
 
 @media(max-width:768px) {
     .vinfo_div {
-        margin-bottom: 32px !important;
+        margin-bottom: 36px !important;
     }
 
     .vinfo_div {
         justify-content: start;
-
-
     }
+    .veichleInfo_margin {
+
+        padding: 24px;
+    }
+    
 }

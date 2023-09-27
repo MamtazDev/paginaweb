@@ -75,7 +75,7 @@ const Tab1 = () => {
               </label>
               <input
                 type="email"
-                className="form-control"
+                className="form-control"  
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="XXX-XXX"

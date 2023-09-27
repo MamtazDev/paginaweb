@@ -17,7 +17,7 @@ const TabsSection = () => {
 
   return (
     <div
-      className=""
+      className="desktop_tabs"
       style={{ backgroundColor: "#f5f8fa", paddingTop: "33px" }}
     >
       <Box

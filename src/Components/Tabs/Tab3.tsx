@@ -7,10 +7,12 @@ import t4 from "../../assets/t34.png";
 import t5 from "../../assets/t35.png";
 import t6 from "../../assets/t36.png";
 import rightArrow from "../../assets/Icon.png";
+
 import "./Tabs.css";
+
 const Tab3 = () => {
   return (
-    <div>
+    <>
       <Row className="section2_container">
         <Col sm={6} md={6} className="left_login">
           <div className="t1_header">
@@ -114,7 +116,7 @@ const Tab3 = () => {
           </div>
         </Col>
       </Row>
-    </div>
+    </>
   );
 };
 

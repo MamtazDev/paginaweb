@@ -246,3 +246,58 @@ label {
     gap: 16px;
     margin-bottom: 36px;
 }
+
+/* mobile tab */
+.close_tab_design {
+    border-radius: 16px;
+    background: var(--neutros-white, #FFF);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    width: 296px;
+    padding: 16px !important;
+    margin-bottom: 8px;
+}
+
+.tab_mobile_header small {
+    color: var(--neutros-dark, #121113);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.8px;
+    cursor: pointer;
+}
+
+.tab_mobile_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login_container_mobile {
+    width: 100%;
+}
+
+.t2_desc {
+    display: flex;
+    flex-direction: column;
+    color: var(--neutros-medium, #67626F);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.72px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.tab2_login_last_text_mobile {
+    color: var(--paleta-blue-light, #50C0F9);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    gap: 8px;
+}

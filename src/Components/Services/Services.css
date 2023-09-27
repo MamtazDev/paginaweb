@@ -1,11 +1,7 @@
-/* .services_container{
-background-image: url('../../assets//sercices_car.gif');
-background-repeat: no-repeat;
-background-size: contain;
-} */
 .services_container {
     position: relative;
-    height: 600px;
+    min-height: 600px;
+    /* height: 100%; */
 }
 
 .services_container p {
@@ -63,9 +59,6 @@ background-size: contain;
 }
 
 .car_gif {
-    /* background-image: url('../../assets//sercices_car.gif') !important; */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
     position: absolute;
     top: 28%;
     right: -7%;
@@ -82,8 +75,24 @@ background-size: contain;
     margin-bottom: 8px;
 }
 
+.service_2_container {
+    padding: 32px !important;
+    border-radius: 20px;
+    background: var(--neutros-white, #FFF);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+}
+
 .service2_left {
     width: 100%;
+}
+
+.service2_left small {
+    color: var(--neutros-medium, #67626F);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 .section2_right_img img {
@@ -91,8 +100,75 @@ background-size: contain;
     height: 406px;
 }
 
-/*  */
+.var_mas_info_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
 
+.var_mas_info_text a {
+    color: var(--paleta-blue-light, #50C0F9);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.var_mas_info_text a:hover {
+    text-decoration: none;
+
+}
+
+.var_mas_info_text img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* mobile e shift hbe */
+.var_mas_info_text_mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+
+.var_mas_info_text_mobile a {
+    color: var(--paleta-blue-light, #50C0F9) !important;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.card {
+    border-radius: 12px;
+    background: var(--neutros-white, #FFF);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    max-width: 296px;
+    display: none;
+}
+
+.card-img-top {
+    width: 172px;
+    height: 172px;
+    margin: auto;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card_container_width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 @media(max-width:768px) {
     .service_card {
         display: flex;
@@ -100,31 +176,58 @@ background-size: contain;
         padding: 24px;
         gap: 8px;
     }
+
     .service_column {
         margin-bottom: 24px !important;
     }
+
     .car_gif {
         display: none;
     }
+
     .services_container {
         margin: 32px !important;
     }
+
     .common_header {
         font-size: 24px;
     }
+
     .card_desc span {
         font-size: 16px;
     }
+
     .services_container p {
         font-size: 14px;
     }
+
     .mobile_car_gif {
         display: block !important;
-        margin: 0 auto  80px auto!important;
+        margin: 0 auto 80px auto !important;
     }
-    .mobile_car_gif img{
-        /* margin-top: -24px !important; */
-        width:100% ;
+
+    .mobile_car_gif img {
+        width: 100%;
         margin-bottom: 80px !important;
+    }
+
+    .var_mas_info_text_mobile a {
+        color: var(--paleta-blue-light, #50C0F9) !important;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .desktop_device_card {
+        display: none;
+    }
+    .card_img{
+      text-align: center;
     }
 }

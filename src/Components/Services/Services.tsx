@@ -8,12 +8,14 @@ import rafiki from "../../assets/rafiki.png";
 const Services = () => {
   return (
     <div className="container_width services_container">
-      <p>Servicios complementarios</p>
-      <h2 className="common_header">
-        Mejora tu experiencia: Servicios adicionales
-      </h2>
+      <div className="services_header_mobile">
+        <p>Servicios complementarios</p>
+        <h2 className="common_header">
+          Mejora tu experiencia: Servicios adicionales
+        </h2>
+      </div>
       {/* cards */}
-      <Row className="">
+      <Row className="small_colum_mnobile">
         <Col md={5} sm={12} className="service_column">
           <div className="service_card">
             <div>
@@ -42,7 +44,7 @@ const Services = () => {
           </div>
         </Col>
         <div className="d-none mobile_car_gif">
-          {/* <img src={rafiki} alt="" /> */}
+          <img src={rafiki} alt="" />
         </div>
       </Row>
       <div className="car_gif">
