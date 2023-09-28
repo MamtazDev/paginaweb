@@ -25,6 +25,17 @@
 }
 
 /* header 2 */
+.mobile_top_links a {
+  padding: 0 !important;
+  color: var(--neutros-medium, #67626f) !important;
+  font-family: Work Sans !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: -0.72px;
+  margin-bottom: 24px;
+}
 nav {
   width: 100%;
 }
@@ -194,9 +205,7 @@ nav .wrapper {
   line-height: 140%;
   letter-spacing: -0.56px;
 }
-.btn{
-  /* line-height: 0 !important; */
-}
+
 /* my class */
 .row .mega-links li a {
   padding: 0px;
@@ -251,7 +260,7 @@ nav .wrapper {
     left: -100%;
     background: #fff;
     display: block;
-    padding: 50px 10px;
+    padding: 50px 32px;
     line-height: 50px;
     overflow-y: auto;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.18);
@@ -260,14 +269,16 @@ nav .wrapper {
 
   ::-webkit-scrollbar {
     width: 10px;
+    height: 20px !important;
   }
 
   ::-webkit-scrollbar-track {
-    background: #242526;
+    background: #E6F5FC;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #3a3b3c;
+    background:grey;
+    height: 50px;
   }
 
   #menu-btn:checked ~ .nav-links {
@@ -309,17 +320,17 @@ nav .wrapper {
   #showMega:checked ~ .mega-box {
     max-height: 100%;
   }
-
   .nav-links .desktop-item {
     display: none;
   }
-
   .nav-links .mobile-item {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #f2f2f2;
     font-size: 20px;
     font-weight: 500;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     cursor: pointer;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -331,6 +342,15 @@ nav .wrapper {
   .drop-menu li a {
     border-radius: 5px;
     font-size: 18px;
+  }
+  .mobile-item small {
+    color: var(--neutros-medium, #67626f);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
   }
 
   .mega-box {
@@ -396,7 +416,11 @@ nav input {
   text-align: center;
   padding: 0 30px;
 }
-
+/* .mobile-item{
+  display: flex;
+  justify-content: space-between;
+  width: 1000%;
+} */
 .body-text div {
   font-size: 45px;
   font-weight: 600;

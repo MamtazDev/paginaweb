@@ -33,6 +33,51 @@ const Header2 = () => {
             </label>
             <hr className="hr_nav" />
             <li>
+              <a href="#" className="desktop-item"></a>
+              <input type="checkbox" id="showMega" />
+              <label htmlFor="showMega" className="mobile-item">
+                <div className="mobile_top_links">
+                  <a href="/" className="">
+                    Empresa
+                  </a>
+                  <a href="/" className="">
+                    Quienes somos
+                  </a>
+                  <a href="/" className="">
+                    Blog
+                  </a>
+                  <a href="/" className="">
+                    Contacto
+                  </a>
+                </div>
+              </label>
+              <hr />
+              <div className="mega-box">
+                <div className="content">
+                  <div className="row row_1 bg_red">
+                    <header>Informe Autosafe</header>
+                    <small className="megamenu_desc">
+                      Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
+                      ornare nisl est pulvinar pulvinar morbi.
+                    </small>
+                  </div>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
+                    <header>Informe Historial</header>
+                    <small className="megamenu_desc">
+                      Entérate de todo el historial de un vehículo usado al
+                      instante
+                    </small>
+                  </div>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
+                    <header>Informe de precio</header>
+                    <small className="megamenu_desc">
+                      Conoce el real valor de mercado de tu auto
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
               <a href="#" className="desktop-item">
                 Informes autosafe
                 <img
@@ -43,7 +88,12 @@ const Header2 = () => {
               </a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
-                Informes autosafe
+                <small> Informes autosafe</small>
+                <img
+                  src={bottomArrow}
+                  style={{ height: "24px", width: "24px" }}
+                  alt=""
+                />
               </label>
               <div className="mega-box">
                 <div className="content">
@@ -82,7 +132,12 @@ const Header2 = () => {
               </a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
-                Transferencia de dominio
+                <small> Transferencia de dominio</small>
+                <img
+                  src={bottomArrow}
+                  style={{ height: "24px", width: "24px" }}
+                  alt=""
+                />
               </label>
               <div className="mega-box">
                 <div className="content">
@@ -120,7 +175,12 @@ const Header2 = () => {
               </a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
-                Vende tu auto
+                <small> Vende tu auto</small>
+                <img
+                  src={bottomArrow}
+                  style={{ height: "24px", width: "24px" }}
+                  alt=""
+                />
               </label>
               <div className="mega-box">
                 <div className="content">
@@ -158,7 +218,12 @@ const Header2 = () => {
               </a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
-                Servicios complementarios
+                <small> Servicios complementarios</small>
+                <img
+                  src={bottomArrow}
+                  style={{ height: "24px", width: "24px" }}
+                  alt=""
+                />
               </label>
               <div className="mega-box">
                 <div className="content">
@@ -187,7 +252,10 @@ const Header2 = () => {
             </li>
           </ul>
           <label htmlFor="menu-btn" className="btn menu-btn ">
-          <i className="fa-solid fa-ellipsis-vertical" style={{marginTop:"15px"}}></i>
+            <i
+              className="fa-solid fa-ellipsis-vertical"
+              style={{ marginTop: "15px" }}
+            ></i>
           </label>
         </div>
       </nav>
