@@ -1,9 +1,21 @@
 import logo from "../../assets/Logo.png";
 import bottomArrow from "../../assets/bottomarrow.png";
+import { useState } from 'react';
+
 const Header2 = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () => {
+      if (window.scrollY >= 80) {
+          setColorchange(true);
+      }
+      else {
+          setColorchange(false);
+      }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
     <div className="">
-      <nav>
+      <nav className={colorChange ? 'navbar_colorChange' : 'main_navbar'}>
         <div className="wrapper">
           <div className="logo">
             <a href="#">

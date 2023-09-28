@@ -8,6 +8,7 @@ import "./Tabs.css";
 import Tab1 from "./Tab1";
 import Tab2 from "./Tab2";
 import Tab3 from "./Tab3";
+import blurright from "../../assets/Blur1.png";
 const TabsSection = () => {
   const [value, setValue] = React.useState("1");
 
@@ -17,8 +18,12 @@ const TabsSection = () => {
 
   return (
     <div
-      className="desktop_tabs"
-      style={{ backgroundColor: "#f5f8fa", paddingTop: "33px" }}
+      className="desktop_tabs blur_left_parent"
+      style={{
+        backgroundColor: "#F5FCFE",
+        paddingTop: "33px",
+        position: "relative",
+      }}
     >
       <Box
         className="container_width"
@@ -64,6 +69,7 @@ const TabsSection = () => {
           </TabPanel>
         </TabContext>
       </Box>
+   
     </div>
   );
 };

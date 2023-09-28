@@ -3,7 +3,6 @@
     background: var(--paleta-blue-light, #50C0F9) !important;
     padding: 8px 16px !important;
     display: flex !important;
-    /* max-width: 330px !important; */
     width: 100% !important;
     padding: 8px 16px !important;
     justify-content: center !important;
@@ -15,6 +14,8 @@
     font-style: normal !important;
     font-weight: 600 !important;
     text-transform: initial !important;
+    z-index: 1;
+
 }
 
 .tab_design2 {
@@ -22,7 +23,6 @@
     background: var(--neutros-light, #DDD) !important;
     padding: 8px 16px !important;
     display: flex !important;
-    /* max-width: 330px !important; */
     width: 100% !important;
     padding: 8px 16px !important;
     justify-content: center !important;
@@ -34,6 +34,8 @@
     font-style: normal !important;
     font-weight: 600 !important;
     text-transform: initial !important;
+    z-index: 1;
+
 }
 
 .tab_design:focus {
@@ -68,7 +70,6 @@ button:focus {
     /* 43.2px */
     letter-spacing: -1.44px;
 }
-
 .t1_header {
     display: flex;
     align-items: center;
@@ -146,6 +147,10 @@ button:focus {
     justify-content: end;
     align-items: start;
 }
+/* .img_3{
+    background-image: url('../../assets/Blur1.png') !important;
+
+} */
 
 /* tab 1 login part design */
 .login_container {
@@ -153,7 +158,6 @@ button:focus {
     border-radius: 24px;
     border: 1px solid #F1F1F1;
     background: var(--neutros-white, #FFF);
-    /* Shadow - Big */
     max-width: 394px;
     width: 100%;
     box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
@@ -300,4 +304,9 @@ label {
     font-weight: 500;
     text-align: center;
     gap: 8px;
+}
+
+.blur_image2{
+    background-image: url('../../assets/Blur1.png');
+    position: absolute;
 }

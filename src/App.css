@@ -1,76 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&family=Work+Sans&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&family=Work+Sans&display=swap");
 
 .mobile_tabs {
-    display: none;
+  display: none;
 }
 
 .nav_fixed {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
+.blur_left_parent {
+  position: relative;
+  width: 100% !important;
+  overflow: hidden;
+}
+.img3 {
+  position: absolute;
+  top: 72px;
+  left: -28px;
+}
+@media (max-width: 767px) {
+  .img3 img {
+    width: 300px;
+  }
+  .img3 {
+    top: 100px;
+    left: 0;
+  }
+  .mobile_tabs {
+    display: flex;
+    margin: auto !important;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    z-index: 1;
+  }
 
-@media only screen and (max-width: 767px) {
-    /* .row {
-        margin-left: 0px !important;
-    } */
-
-    .mobile_tabs {
-        display: flex;
-        margin: auto !important;
-        justify-content: center;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
-
-    .desktop_tabs {
-        display: none;
-    }
-
+  .desktop_tabs {
+    display: none;
+  }
+  .blur_left_parent {
+    width: 100% !important;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1114px) {
+  .mobile_tabs {
+    display: none;
+  }
+  .desktop_tabs {
+    display: block;
+  }
 
-    .mobile_tabs {
-        display: none;
-    }
+  .tab_design2 {
+    width: max-content !important;
+  }
 
-    .desktop_tabs {
-        display: block;
-        /* width: 100vw !important; */
-        /* overflow: hidden; */
-    }
+  .tab_design {
+    width: max-content !important;
+  }
 
-    .tab_design2 {
-        width: max-content !important;
-    }
+  /* service design */
+  .car_gif {
+    display: block;
+    position: absolute;
+    top: 53% !important;
+    right: 50%;
+    transform: translateX(50%);
+    left: auto;
+  }
 
-    .tab_design {
-        width: max-content !important;
-    }
+  .small_colum_mnobile {
+    justify-content: center;
+    width: 100%;
+  }
 
-    /* service design */
-    .car_gif {
-        display: block;
-        position: absolute;
-        top: 53% !important;
-        right: 50%;
-        transform: translateX(50%);
-        left: auto;
-    }
-
-    .small_colum_mnobile {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .services_header_mobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* margin-left: 50px; */
-        text-align: center;
-    }
+  .services_header_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 }

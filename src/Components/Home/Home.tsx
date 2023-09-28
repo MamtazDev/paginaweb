@@ -8,6 +8,7 @@ import MobileTabs from "../Tabs/MobileTabs";
 import TabsSection from "../Tabs/TabsSection";
 import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 import "../../App.css";
+import blurleft from '../../assets/Blur.png'
 const Home = () => {
   return (
     <div
@@ -23,12 +24,15 @@ const Home = () => {
       <div className="desktop_tabs">
         <TabsSection />
       </div>
+      <div className="img3">
+        <img src={blurleft} alt="" />
+      </div>
       <div className="mobile_tabs">
         <MobileTabs />
       </div>
       <VeichlesInfo />
       {/* <Services /> */}
-      {/* <Service2 /> */}
+      <Service2 />
       {/* <Gallary /> */}
       {/* <Questions /> */}
       <CardCarousal />

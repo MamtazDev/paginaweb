@@ -1,11 +1,15 @@
 import "./Banner.css";
-
+import blurleft from "../../assets/Blur.png";
+import blurright from "../../assets/Blur1.png";
 const Banner = () => {
   return (
-    <div className="banner_bg">
+    <div className="banner_bg blur_left_parent">
+      <div className="blur_image1">
+        <img src={blurright} alt="" />
+      </div>
+
       <div className="container_width ">
         <div className="banner_text">
-
           <h1>
             <span className="blue_light_color">Transferencias y compras </span>
             <span className="de_veichle">
@@ -15,6 +19,10 @@ const Banner = () => {
           </h1>
         </div>
       </div>
+      {/* blur image */}
+      {/* <div className="blur_image">
+        <img src={blurleft} alt="" />
+      </div> */}
     </div>
   );
 };

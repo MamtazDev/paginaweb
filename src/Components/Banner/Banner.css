@@ -1,63 +1,83 @@
 .banner_bg {
-    background-image: url('../../assets/banner_bg.png');
-    min-height: 280px;
-    display: flex;
-
+  background-image: url("../../assets/banner_bg.png");
+  min-height: 400px;
+  display: flex;
+  position: relative;
+  background-color: #f5fcfe !important;
 }
-
+.blur_image {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.blur_image1 {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  /* z-index: -1; */
+}
+.blur_image1 img {
+  height: 350px;
+  width: 100vw !important;
+  overflow-x: hidden;
+  /* z-index: -1; */
+}
+.blur_image img {
+  height: 100%;
+}
 .blue_light_color {
-    color: var(--paleta-blue-light, #50C0F9);
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-    letter-spacing: -1.44px;
+  color: var(--paleta-blue-light, #50c0f9);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -1.44px;
 }
 
 .de_veichle {
-    color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
+  color: var(--paleta-blue-dark, #002863);
+  font-family: Work Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -1.44px;
 }
 
-
 .banner_text {
-    max-width: 1008px;
-    text-align: center;
-    margin: auto;
-
+  max-width: 1008px;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
 }
 
 .service2_left {
-    padding: 121px 69px 0px;
+  padding: 121px 69px 0px;
 }
 
+@media (max-width: 768px) {
+  .blue_light_color {
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
 
-@media (max-width:768px) {
-    .blue_light_color {
-        font-size: 24px;
-        letter-spacing: -0.96px;
-    }
-
-    .de_veichle {
-
-        font-size: 24px;
-        letter-spacing: -0.96px;
-    }
-
-    .banner_text {
-        padding: 0px 32px;
-    }
-    .banner_bg {
-        margin-bottom: 49.5px;
-        background-image: url('../../assets/header_res.png');
-     background-repeat: no-repeat;
-     background-size: cover;
-    }
-    
+  .de_veichle {
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
+.blur_image1{
+  display: none;
+}
+  .banner_text {
+    padding: 0px 32px;
+    margin-top: 76px;
+  }
+  .banner_bg {
+    margin-bottom: 49.5px;
+    background-image: url("../../assets/header_res.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

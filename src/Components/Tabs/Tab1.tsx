@@ -8,11 +8,12 @@ import t5 from "../../assets/5.png";
 import t6 from "../../assets/6.png";
 import t7 from "../../assets/7.png";
 import rightArrow from "../../assets/arrow-right8.png";
+import blur from "../../assets/Blur1.png";
 import "./Tabs.css";
 const Tab1 = () => {
   return (
-    <div>
-      <Row className="section2_container">
+    <div className="">
+      <Row className="section2_container ">
         <Col sm={6} md={6} className="left_login">
           <div className="t1_header">
             <img src={t1} alt="" />
@@ -66,7 +67,7 @@ const Tab1 = () => {
             <img src={rightArrow} alt="" />
           </button>
         </Col>
-        <Col className="login_form" sm={6} md={6}>
+        <Col className="login_form img_3" sm={6} md={6}>
           <div className="login_container">
             <h3>Pide tu informe</h3>
             <div className="form-group">
@@ -75,7 +76,7 @@ const Tab1 = () => {
               </label>
               <input
                 type="email"
-                className="form-control"  
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="XXX-XXX"
@@ -96,6 +97,9 @@ const Tab1 = () => {
           </div>
         </Col>
       </Row>
+      <div className="">
+        {/* <img src={blur} alt="" /> */}
+      </div>
     </div>
   );
 };
