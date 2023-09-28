@@ -1,21 +1,20 @@
 import logo from "../../assets/Logo.png";
 import bottomArrow from "../../assets/bottomarrow.png";
-import { useState } from 'react';
+import { useState } from "react";
 
 const Header2 = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
-      if (window.scrollY >= 80) {
-          setColorchange(true);
-      }
-      else {
-          setColorchange(false);
-      }
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
   };
-  window.addEventListener('scroll', changeNavbarColor);
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="">
-      <nav className={colorChange ? 'navbar_colorChange' : 'main_navbar'}>
+      <nav className={colorChange ? "navbar_colorChange" : "main_navbar"}>
         <div className="wrapper">
           <div className="logo">
             <a href="#">
@@ -25,10 +24,14 @@ const Header2 = () => {
           <input type="radio" name="slider" id="menu-btn" />
           <input type="radio" name="slider" id="close-btn" />
           <ul className="nav-links">
-            <label htmlFor="close-btn" className="btn close-btn">
+            <label
+              htmlFor="close-btn"
+              className="btn close-btn mobile_design_navbar"
+            >
+              <img src={logo} alt="" />
               <i className="fas fa-times"></i>
             </label>
-
+            <hr className="hr_nav" />
             <li>
               <a href="#" className="desktop-item">
                 Informes autosafe
@@ -51,14 +54,14 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
                       instante
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe de precio</header>
                     <small className="megamenu_desc">
                       Conoce el real valor de mercado de tu auto
@@ -90,14 +93,14 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
                       instante
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe de precio</header>
                     <small className="megamenu_desc">
                       Conoce el real valor de mercado de tu auto
@@ -128,14 +131,14 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
                       instante
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe de precio</header>
                     <small className="megamenu_desc">
                       Conoce el real valor de mercado de tu auto
@@ -166,14 +169,14 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
                       instante
                     </small>
                   </div>
-                  <div className="row row_1 " style={{paddingLeft:"80px"}}>
+                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
                     <header>Informe de precio</header>
                     <small className="megamenu_desc">
                       Conoce el real valor de mercado de tu auto
@@ -183,8 +186,8 @@ const Header2 = () => {
               </div>
             </li>
           </ul>
-          <label htmlFor="menu-btn" className="btn menu-btn">
-            <i className="fas fa-bars"></i>
+          <label htmlFor="menu-btn" className="btn menu-btn ">
+          <i className="fa-solid fa-ellipsis-vertical" style={{marginTop:"15px"}}></i>
           </label>
         </div>
       </nav>
