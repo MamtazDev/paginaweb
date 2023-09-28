@@ -20,13 +20,48 @@ const CardCarousal = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    initialSlide: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <div className="card_container">
-      <p>Clientes felices</p>
+      <p>Clientes felices</p> 
       <div className="carousal_header">
         <h2>Empresas que confían en nosotros</h2>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center" }} className="">
           <button className="button next_prev_btn" onClick={previous}>
             <img src={prev} alt="" />
           </button>
