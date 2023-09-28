@@ -3,7 +3,6 @@
 .mobile_tabs {
   display: none;
 }
-
 .nav_fixed {
   position: fixed;
   z-index: 99;
@@ -19,7 +18,11 @@
   top: 72px;
   left: -28px;
 }
-@media (max-width: 767px) {
+/* .slick-slide>div{
+  margin: 0 16px;
+} */
+
+@media (max-width: 768px) {
   .img3 img {
     width: 300px;
   }

@@ -9,6 +9,7 @@ import TabsSection from "../Tabs/TabsSection";
 import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 import "../../App.css";
 import blurleft from '../../assets/Blur.png'
+import Card from './../CardCarousal/Card';
 const Home = () => {
   return (
     <div
@@ -36,6 +37,7 @@ const Home = () => {
       {/* <Gallary /> */}
       {/* <Questions /> */}
       <CardCarousal />
+      {/* <Card/> */}
     </div>
   );
 };

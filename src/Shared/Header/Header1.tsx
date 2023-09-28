@@ -3,8 +3,6 @@ const Header1 = () => {
   return (
     <div className="nav_bg_dark">
       <div className="navbar navbar-expand-lg navbar-dark container_width sticky-top">
-       
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto d-flex justify-content-center align-items-center">
             <li className="nav-item">

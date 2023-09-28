@@ -231,7 +231,9 @@ nav .wrapper {
   right: 30px;
   top: 10px;
 }
-
+.navbar-expand-lg .navbar-nav {
+  padding-right: 32px;
+}
 @media screen and (max-width: 970px) {
   .wrapper .btn.close-btn {
     position: flex;
@@ -239,7 +241,7 @@ nav .wrapper {
   }
   .close-btn img {
     position: absolute;
-    right: 450% !important;
+    right: 394% !important;
   }
   .close-btn i {
     margin-top: 20px;
@@ -273,11 +275,11 @@ nav .wrapper {
   }
 
   ::-webkit-scrollbar-track {
-    background: #E6F5FC;
+    background: #e6f5fc;
   }
 
   ::-webkit-scrollbar-thumb {
-    background:grey;
+    background: grey;
     height: 50px;
   }
 
