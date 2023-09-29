@@ -1,29 +1,34 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import t1 from "../../assets/t21.png";
-import t2 from "../../assets/t22.png";
-import t3 from "../../assets/t23.png";
-import t4 from "../../assets/t24.png";
-import t5 from "../../assets/t25.png";
-import t6 from "../../assets/t26.png";
-import t7 from "../../assets/t27.png";
+import t1 from "../../assets/t31.png";
+import t2 from "../../assets/t32.png";
+import t3 from "../../assets/t33.png";
+import t4 from "../../assets/t34.png";
+import t5 from "../../assets/t35.png";
+import t6 from "../../assets/t36.png";
 import rightArrow from "../../assets/Icon.png";
+
 import "./Tabs.css";
-const Tab2 = () => {
+
+const Precios = () => {
   return (
-    <div>
+    <>
       <Row className="section2_container">
         <Col sm={6} md={6} className="left_login">
           <div className="t1_header">
             <img src={t1} alt="" />
-            <span className="inform_auto_save"> Transferencia de dominio</span>
+            <span className="inform_auto_save">Informe de precios</span>
           </div>
           <div className="t1_desc">
-            <p>Sin trámites presenciales.</p>
+            <p>¡Obtén un precio justo!</p>
             <p>
-              Transfiere el dominio de tu vehículo de forma rápida y segura,
-              dondequiera que estés, con la misma validez que en notaria.¡Inicia
-              tu transferencia ahora!
+              Conoce el valor real de mercado un vehículo de acuerdo a su
+              versión y kilometraje.
+            </p>
+            <p>
+              Obtén toda la información necesaria para comprar o vender tu auto
+              usado al precio correcto, con la información más actualizada del
+              mercado.
             </p>
           </div>
           <div>
@@ -31,29 +36,25 @@ const Tab2 = () => {
               <Col sm={12} md={6}>
                 <div className="common_div_flex">
                   <img src={t2} alt="" />
-                  <small>Trámite 100% digital</small>
+                  <small>Valor Real de Mercado</small>
                 </div>
                 <div className="common_div_flex">
                   <img src={t3} alt="" />
-                  <small>Rápido y seguro</small>
+                  <small>Valor como Parte de Pago</small>
                 </div>
                 <div className="common_div_flex">
                   <img src={t4} alt="" />
-                  <small>Autorizado por Notario</small>
+                  <small>Depreciación por Kilometraje</small>
                 </div>
               </Col>
               <Col sm={12} md={6}>
                 <div className="common_div_flex">
                   <img src={t5} alt="" />
-                  <small>Soporte por WhatsApp</small>
+                  <small>Popularidad según zona geográfica</small>
                 </div>
                 <div className="common_div_flex">
                   <img src={t6} alt="" />
-                  <small>Fácil seguimiento </small>
-                </div>
-                <div className="common_div_flex">
-                  <img src={t7} alt="" />
-                  <small>TAG a domicilio</small>
+                  <small>Precio de otras versiones del modelo</small>
                 </div>
               </Col>
             </Row>
@@ -65,7 +66,7 @@ const Tab2 = () => {
         </Col>
         <Col className="login_form" sm={6} md={6}>
           <div className="login_container">
-            <h3>Solicita tu transferencia</h3>
+            <h3>Pide tu informe</h3>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1" className="label_login">
                 Ingresa la patente
@@ -88,27 +89,35 @@ const Tab2 = () => {
                 placeholder="mail@mail.com"
               />
             </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">
-                Ingresa tu número de teléfono
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="+569 1234 5678"
-              />
+            <div className="select_container">
+              <div className="select_design">
+                <select
+                  className="form_select"
+                  aria-label="Default select example"
+                >
+                  <option selected>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                </select>
+              </div>
+              <div className="select_design">
+                <select
+                  className="form_select"
+                  aria-label="Default select example"
+                >
+                  <option selected>0km</option>
+                  <option value="">1km</option>
+                  <option value="">2km</option>
+                </select>
+              </div>
             </div>
-            <button className="login_btn">Iniciar transferencia</button>
-            <small className="d-flex justify-content-center align-items-center tab2_login_last_text ">
-              Seguimiento de transferencia <img src={rightArrow} alt="" />
-            </small>
+            <button className="login_btn">Comprar informe</button>
+            <p>Ver informe ejemplo</p>
           </div>
         </Col>
       </Row>
-    </div>
+    </>
   );
 };
 
-export default Tab2;
+export default Precios;

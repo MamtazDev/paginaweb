@@ -2,13 +2,13 @@
   max-width: 1280px;
   width: 100%;
   overflow: hidden;
-  padding: 0px 32px;
-  margin-top: 48px;
+  padding: 0px  32px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
-.slick-track{
+
+.slick-track {
   background-color: #ffffff !important;
 }
 
@@ -22,7 +22,9 @@
   letter-spacing: -0.64px;
   margin-bottom: 0px !important;
 }
-
+.half_card{
+  width: 50%;
+}
 .carousal_header {
   display: flex;
   justify-content: space-between;
@@ -51,6 +53,9 @@
   box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
   padding: 32px 48px 48px;
 }
+.slick-track{
+  transform: translate3d(-1249px, 0px, 0px);
+}
 
 .card_design img {
   width: 77.005px;
@@ -66,6 +71,17 @@
   font-weight: 300;
   line-height: 140%;
   /* 22.4px */
+}
+
+.card_design p {
+  color: var(--paleta-blue-dark, #002863);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+margin-top: 24px;
+
 }
 
 

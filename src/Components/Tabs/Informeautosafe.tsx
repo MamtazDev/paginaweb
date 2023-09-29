@@ -8,9 +8,9 @@ import t5 from "../../assets/5.png";
 import t6 from "../../assets/6.png";
 import t7 from "../../assets/7.png";
 import rightArrow from "../../assets/arrow-right8.png";
-import blur from "../../assets/Blur1.png";
+import blur from "../../assets/orangeBlur.png";
 import "./Tabs.css";
-const Tab1 = () => {
+const Informeautosafe = () => {
   return (
     <div className="">
       <Row className="section2_container ">
@@ -104,4 +104,4 @@ const Tab1 = () => {
   );
 };
 
-export default Tab1;
+export default Informeautosafe;

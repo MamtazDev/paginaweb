@@ -5,9 +5,9 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import "./Tabs.css";
-import Tab1 from "./Tab1";
-import Tab2 from "./Tab2";
-import Tab3 from "./Tab3";
+import Informeautosafe from "./Informeautosafe";
+import Transferencia from "./Transferencia";
+import Precios from "./Precios";
 import blurright from "../../assets/Blur1.png";
 const TabsSection = () => {
   const [value, setValue] = React.useState("1");
@@ -59,13 +59,13 @@ const TabsSection = () => {
             </TabList>
           </Box>
           <TabPanel value="1">
-            <Tab1 />
+            <Informeautosafe />
           </TabPanel>
           <TabPanel value="2">
-            <Tab2 />
+            <Transferencia />
           </TabPanel>
           <TabPanel value="3">
-            <Tab3 />
+            <Precios />
           </TabPanel>
         </TabContext>
       </Box>

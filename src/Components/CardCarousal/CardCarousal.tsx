@@ -26,8 +26,8 @@ const CardCarousal = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -42,7 +42,7 @@ const CardCarousal = () => {
       },
       {
         breakpoint: 767,
-        settings: {
+        settings: { 
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
@@ -78,18 +78,18 @@ const CardCarousal = () => {
         <div key={2}>
           <Card />
         </div>
-        <div key={3}>
-          <Card />
+        <div key={3} className={styles.half_card}>
+          <Card  />
         </div>
         <div key={4}>
           <Card />
         </div>
-        <div key={5}>
+{/*         <div key={5}>
           <Card />
         </div>
         <div key={6}>
           <Card />
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

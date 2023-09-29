@@ -52,7 +52,6 @@
 }
 
 button:focus {
-    /* outline: 1px dotted; */
     outline: none;
 
 }
@@ -65,15 +64,11 @@ button:focus {
 .tab_blur_right {
     position: absolute;
     right: -26px;
-    bottom: 27px;
+    bottom: -168px;
     transform: rotate(90deg);
-    /* z-index: -1; */
 }
 
-
 /* tab 1 css----------------- */
-
-
 .inform_auto_save {
     color: var(--paleta-blue-dark, #002863);
     font-family: Work Sans;
@@ -81,7 +76,6 @@ button:focus {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    /* 43.2px */
     letter-spacing: -1.44px;
 }
 
