@@ -1,10 +1,21 @@
-
 .veichleInfo_margin {
-    border-radius: 20px;
-    background: var(--neutros-white, #FFF) !important;
-    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
-    margin: 80px 32px 119px 32px;
+    /* border-radius: 20px; */
+    /* background: var(--neutros-white, #FFF) !important; */
+    /* box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05); */
+    /* margin: 80px 32px 119px 32px; */
     padding: 48px 48px 50px 48px;
+    /* height: 173px; */
+    display: flex;
+    align-items: center;
+}
+
+.veichle_bg {
+    background-image: url('../../assets/Frame.png') !important;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 173px;
+    margin-bottom: 48px;
+
 }
 
 .vinfo_div {
@@ -42,9 +53,10 @@
     .vinfo_div {
         justify-content: start;
     }
+
     .veichleInfo_margin {
 
         padding: 24px;
     }
-    
+
 }

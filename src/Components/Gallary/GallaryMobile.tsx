@@ -13,8 +13,8 @@ import "./Gallary.css";
 export const GallaryMobile = () => {
   return (
     <>
-      <div className="container_width" style={{marginLeft:"32px"}}>
-        <OwlCarousel className="owl-theme" loop={true} dots={false} autoplay={true}>
+      <div className="">
+        <OwlCarousel className="owl-theme" loop dots={false} autoplay >
           <div className="item mobile_gallary_img">
             <img src={g1} alt="" />
           </div>
@@ -22,22 +22,19 @@ export const GallaryMobile = () => {
             <img src={g2} alt="" />
           </div>
           <div className="item mobile_gallary_img">
-            <img src={g3} alt="" />{" "}
+            <img src={g3} alt="" />
           </div>
           <div className="item mobile_gallary_img">
-            <img src={g4} alt="" />{" "}
+            <img src={g4} alt="" />
           </div>
           <div className="item mobile_gallary_img">
-            <img src={g5} alt="" />{" "}
+            <img src={g5} alt="" />
           </div>
           <div className="item mobile_gallary_img">
-            <img src={g6} alt="" />{" "}
+            <img src={g6} alt="" />
           </div>
           <div className="item mobile_gallary_img">
-            <img src={g7} alt="" />{" "}
-          </div>
-          <div className="item mobile_gallary_img">
-            <img src={g8} alt="" />{" "}
+            <img src={g7} alt="" />
           </div>
         </OwlCarousel>
       </div>

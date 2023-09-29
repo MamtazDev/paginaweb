@@ -57,6 +57,20 @@ button:focus {
 
 }
 
+/* blur right imag */
+.desktop_tabs {
+    position: relative;
+}
+
+.tab_blur_right {
+    position: absolute;
+    right: -26px;
+    bottom: 27px;
+    transform: rotate(90deg);
+    /* z-index: -1; */
+}
+
+
 /* tab 1 css----------------- */
 
 
@@ -70,6 +84,7 @@ button:focus {
     /* 43.2px */
     letter-spacing: -1.44px;
 }
+
 .t1_header {
     display: flex;
     align-items: center;
@@ -117,6 +132,7 @@ button:focus {
 .left_login {
     max-width: 560px;
     width: 100%;
+    z-index: 1;
     /* margin-right: 80px; */
 }
 
@@ -146,7 +162,9 @@ button:focus {
     display: flex;
     justify-content: end;
     align-items: start;
+    z-index: 1;
 }
+
 /* .img_3{
     background-image: url('../../assets/Blur1.png') !important;
 
@@ -296,6 +314,7 @@ label {
     margin-bottom: 24px;
     margin-top: 24px;
 }
+
 .tab2_login_last_text_mobile {
     color: var(--paleta-blue-light, #50C0F9);
     font-family: Work Sans;
@@ -306,7 +325,7 @@ label {
     gap: 8px;
 }
 
-.blur_image2{
+.blur_image2 {
     background-image: url('../../assets/Blur1.png');
     position: absolute;
 }

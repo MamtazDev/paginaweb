@@ -1,6 +1,4 @@
 import "./Gallary.css";
-import { Col } from "react-bootstrap";
-import { Row } from "react-bootstrap";
 import g1 from "../../assets/g1.jpg";
 import g2 from "../../assets/g2.jpg";
 import g3 from "../../assets/g3.jpg";
@@ -19,37 +17,37 @@ const Gallary = () => {
           <p>Sigamos conectados en Instagram</p>
         </div>
         <div className="gallary_desktop">
-          <Row style={{ marginBottom: "16px" }}>
-            <Col md={3} sm={12}>
+          <div className="g_row1" style={{ marginBottom: "16px" }}>
+            <div>
               <img src={g1} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g2} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g3} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g4} alt="" className="gallary_image" />
-            </Col>
-          </Row>
-          <Row style={{ marginBottom: "80px" }}>
-            <Col md={3} sm={12}>
+            </div>
+          </div>
+          <div className="g_row1" style={{ marginBottom: "80px" }}>
+            <div>
               <img src={g5} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g6} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g7} alt="" className="gallary_image" />
-            </Col>
-            <Col md={3} sm={12}>
+            </div>
+            <div>
               <img src={g8} alt="" className="gallary_image" />
-            </Col>
-          </Row>
+            </div>
+          </div>
         </div>
         <div className="gallary_mobile d-none">
-          <GallaryMobile/>
+          <GallaryMobile />
         </div>
       </div>
     </div>

@@ -97,8 +97,8 @@ const Tab1 = () => {
           </div>
         </Col>
       </Row>
-      <div className="">
-        {/* <img src={blur} alt="" /> */}
+      <div className="tab_blur_right">
+        <img src={blur} alt="" />
       </div>
     </div>
   );

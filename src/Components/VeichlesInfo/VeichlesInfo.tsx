@@ -7,7 +7,7 @@ import t3 from "../../assets/t31.png";
 const VeichlesInfo = () => {
   return (
     <div className="container_width ">
-      <Row className="veichleInfo_margin">
+      <Row className="veichleInfo_margin veichle_bg">
         <Col md={4} sm={12}>
           <div className="vinfo_div">
             <img src={t1} alt="" />
