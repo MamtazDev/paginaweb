@@ -5,23 +5,31 @@
   padding: 0px 32px;
   margin-top: 48px;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.slick-track{
+  background-color: #ffffff !important;
+}
+
 .card_container p {
   color: var(--neutros-medium, #67626f);
   font-family: Work Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
   letter-spacing: -0.64px;
   margin-bottom: 0px !important;
 }
+
 .carousal_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
 }
+
 .next_prev_btn {
   width: 64px;
   height: 64px;
@@ -31,6 +39,7 @@
   margin-right: 16px;
   cursor: pointer;
 }
+
 .card_design {
   display: flex;
   flex-direction: column;
@@ -42,24 +51,26 @@
   box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
   padding: 32px 48px 48px;
 }
+
 .card_design img {
   width: 77.005px;
   height: 24px;
   margin-bottom: 34px;
 }
+
 .card_design small {
   color: var(--neutros-medium, #67626f);
   font-family: Work Sans;
   font-size: 16px;
   font-style: italic;
   font-weight: 300;
-  line-height: 140%; /* 22.4px */
+  line-height: 140%;
+  /* 22.4px */
 }
-.slick-slide {
-  margin-right: 16px !important;
-}
-@media(max-width:768px){
-  .next_prev_btn{
+
+
+@media(max-width:768px) {
+  .next_prev_btn {
     display: none;
   }
 }

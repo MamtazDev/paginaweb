@@ -8,8 +8,9 @@ import MobileTabs from "../Tabs/MobileTabs";
 import TabsSection from "../Tabs/TabsSection";
 import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 import "../../App.css";
-import blurleft from '../../assets/Blur.png'
-import Card from './../CardCarousal/Card';
+import blurleft from "../../assets/Blur.png";
+import Card from "./../CardCarousal/Card";
+import { GallaryMobile } from "../Gallary/GallaryMobile";
 const Home = () => {
   return (
     <div
@@ -32,12 +33,11 @@ const Home = () => {
         <MobileTabs />
       </div>
       <VeichlesInfo />
-      {/* <Services /> */}
+      <Services />
       <Service2 />
-      {/* <Gallary /> */}
-      {/* <Questions /> */}
       <CardCarousal />
-      {/* <Card/> */}
+      <Gallary />
+      <Questions />
     </div>
   );
 };

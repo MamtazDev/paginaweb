@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container_width ">
           <div className="row footer_padding_sm">
             <div className="col-md-12">
-              <div className="row">
+              <div className="row" style={{marginRight:"0px"}}>
                 <div className="col-md-3 mb-md-0 mb-4">
                   <h2 className="footer-heading">
                     <img src={logo} alt="" />

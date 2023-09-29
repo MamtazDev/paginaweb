@@ -1,8 +1,8 @@
 import mecanix from "../../assets/mechanix.png";
-import "./CardCarousal.css";
+import styles from  "./CardCarousal.module.css";
 const Card = () => {
   return (
-    <div className="card_design">
+    <div className={styles.card_design}>
       <img src={mecanix} alt="" />
       <small>
         Lorem ipsum dolor sit amet consectetur. Mi turpis metus dictum

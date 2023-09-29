@@ -23,7 +23,7 @@ const Service2 = () => {
             </div>
           </Col>
           <Col md={6} sm={12} className="section2_right_img">
-            <img className="" src={car2} alt="" />
+            <img className="img-fluid" src={car2} alt="" />
           </Col>
         </Row>
       </div>

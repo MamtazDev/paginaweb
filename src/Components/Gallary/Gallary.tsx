@@ -9,6 +9,7 @@ import g5 from "../../assets/g5.jpg";
 import g6 from "../../assets/g6.jpg";
 import g7 from "../../assets/g7.jpg";
 import g8 from "../../assets/g8.jpg";
+import { GallaryMobile } from "./GallaryMobile";
 const Gallary = () => {
   return (
     <div className="container_width gallary_container">
@@ -46,6 +47,9 @@ const Gallary = () => {
               <img src={g8} alt="" className="gallary_image" />
             </Col>
           </Row>
+        </div>
+        <div className="gallary_mobile d-none">
+          <GallaryMobile/>
         </div>
       </div>
     </div>

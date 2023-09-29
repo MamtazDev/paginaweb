@@ -1,7 +1,21 @@
+
+
+.card_row{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap
+}
+
+
+
+
+
+
 .services_container {
     position: relative;
     min-height: 600px;
     /* height: 100%; */
+    padding-left: 35px;
 }
 
 .services_container p {
@@ -34,8 +48,10 @@
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
-    /* max-height: 174px !important; */
+    max-height: 174px !important;
     height: 100%;
+    max-width: 458px !important;
+    width: 100% !important;
 }
 
 .card_desc span {
@@ -60,8 +76,8 @@
 
 .car_gif {
     position: absolute;
-    top: 28%;
-    right: -7%;
+    top: 31%;
+    right: 0;
     z-index: -999999999999999999 !important;
 }
 
@@ -169,7 +185,7 @@
     justify-content: center;
     position: relative;
 }
-@media(max-width:768px) {
+@media(max-width:767px) {
     .service_card {
         display: flex;
         flex-direction: column;
@@ -187,6 +203,7 @@
 
     .services_container {
         margin: 32px !important;
+        padding-left: 0px;
     }
 
     .common_header {
