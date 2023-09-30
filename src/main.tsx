@@ -19,3 +19,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+/* https://www.figma.com/file/SyjZMCcbyc41Yg0dzrmcIW/P%C3%A1gina-Web?node-id=870%3A2881&mode=dev */

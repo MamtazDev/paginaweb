@@ -4,6 +4,7 @@ import prev from "../../assets/prev.png";
 import nextImage from "../../assets/next.png";
 import Card from "./Card";
 import styles from "./CardCarousal.module.css";
+
 const CardCarousal = () => {
   const sliderRef = useRef<Slider | null>(null);
   const next = () => {
@@ -23,39 +24,32 @@ const CardCarousal = () => {
     initialSlide: 0,
     infinite: true,
     centerMode: true,
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
+          slidesToScroll:1,
+          // infinite: true,
+          // dots: true
+        }
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 1,
+          slidesToShow:1,
           slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: { 
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
+          // initialSlide: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+          slidesToScroll: 1
+        }
+      }
     ],
   };
   return (
@@ -73,14 +67,14 @@ const CardCarousal = () => {
         </div>
       </div>
       <Slider ref={sliderRef} {...settings} className="slider">
-        <div key={1} >
+        <div key={1}>
           <Card />
         </div>
         <div key={2}>
           <Card />
         </div>
         <div key={3} className={styles.half_card}>
-          <Card  />
+          <Card />
         </div>
         <div key={4}>
           <Card />

@@ -8,10 +8,12 @@ import MobileTabs from "../Tabs/MobileTabs";
 import TabsSection from "../Tabs/TabsSection";
 import "../../App.css";
 import blurleft from "../../assets/Blur.png";
+import blur from "../../assets/orangeBlur.png";
+import Carousal from "../CardCarousal/Carousal";
 
 const Home = () => {
   return (
-    <div style={{backgroundColor:"#f5fcfe",zIndex:"-99999999999999999"}}>
+    <div style={{ backgroundColor: "#f5fcfe", zIndex: "" }}>
       <Banner />
       <div className="desktop_tabs">
         <TabsSection />
@@ -24,8 +26,14 @@ const Home = () => {
       </div>
       <Services />
       <Service2 />
-      <CardCarousal />
-      <Gallary />
+      <div style={{ position: "relative" }}>
+        {/* <CardCarousal /> */}
+        <Carousal/>
+        <Gallary />
+       {/*  <div className="carousal_blur">
+          <img className="img-fluid" src={blur} alt="" />
+        </div> */}
+      </div>
       <Questions />
     </div>
   );
