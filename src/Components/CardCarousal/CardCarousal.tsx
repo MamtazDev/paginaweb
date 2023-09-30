@@ -18,10 +18,11 @@ const CardCarousal = () => {
   };
   const settings = {
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
     infinite: true,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -41,9 +42,9 @@ const CardCarousal = () => {
         },
       },
       {
-        breakpoint: 767,
+        breakpoint: 768,
         settings: { 
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },

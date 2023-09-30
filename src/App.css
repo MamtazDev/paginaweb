@@ -21,7 +21,15 @@
   top: 72px;
   left: -28px;
 }
+.slick-slide {
+  margin-right: -50px !important;
 
+}
+
+.slick-initialized .slick-slide {
+  /* width: 490px !important; */
+
+}
 @media (max-width: 768px) {
   .img3 img {
     width: 300px;
