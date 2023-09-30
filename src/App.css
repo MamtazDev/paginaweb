@@ -3,33 +3,35 @@
 .mobile_tabs {
   display: none;
 }
+
 .nav_fixed {
   position: fixed;
   z-index: 99;
   width: 100%;
 }
+
 .blur_left_parent {
   position: relative;
   width: 100% !important;
   overflow: hidden;
 }
+
 .img3 {
   position: absolute;
   top: 72px;
   left: -28px;
 }
-/* .slick-slide>div{
-  margin: 0 16px;
-} */
 
 @media (max-width: 768px) {
   .img3 img {
     width: 300px;
   }
+
   .img3 {
     top: 100px;
     left: 0;
   }
+
   .mobile_tabs {
     display: flex;
     margin: auto !important;
@@ -42,6 +44,7 @@
   .desktop_tabs {
     display: none;
   }
+
   .blur_left_parent {
     width: 100% !important;
     overflow: hidden;
@@ -52,6 +55,7 @@
   .mobile_tabs {
     display: none;
   }
+
   .desktop_tabs {
     display: block;
   }
@@ -64,7 +68,6 @@
     width: max-content !important;
   }
 
-  /* service design */
   .car_gif {
     display: block;
     position: absolute;

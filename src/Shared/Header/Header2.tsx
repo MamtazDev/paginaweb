@@ -33,7 +33,6 @@ const Header2 = () => {
             </label>
             <hr className="hr_nav" />
             <li>
-              {/* <a href="#" className="desktop-item"></a> */}
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
                 <div className="mobile_top_links">

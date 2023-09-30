@@ -18,20 +18,17 @@
   position: absolute;
   right: 0;
   top: 10%;
-  /* z-index: -1; */
 }
 
 .blur_image1 img {
   height: 350px;
   width: 100vw !important;
   overflow-x: hidden;
-  /* z-index: -1; */
 }
 
 .blur_image img {
   height: 100%;
 }
-
 .blue_light_color {
   color: var(--paleta-blue-light, #50c0f9);
   text-align: center;

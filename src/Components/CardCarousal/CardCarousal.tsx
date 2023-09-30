@@ -84,12 +84,6 @@ const CardCarousal = () => {
         <div key={4}>
           <Card />
         </div>
-{/*         <div key={5}>
-          <Card />
-        </div>
-        <div key={6}>
-          <Card />
-        </div> */}
       </Slider>
     </div>
   );

@@ -60,7 +60,6 @@ button:focus {
 .desktop_tabs {
     position: relative;
 }
-
 .tab_blur_right {
     position: absolute;
     right: -26px;

@@ -1,8 +1,6 @@
 import { useState } from "react";
 import downarrow from "../../assets/arrow-drop-down-line.png";
 import "./Tabs.css";
-import rightArrow from "../../assets/Icon.png";
-
 const MobileTab3 = () => {
   const [open, setOpen] = useState(false);
 

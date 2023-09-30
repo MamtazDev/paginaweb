@@ -8,7 +8,6 @@ import "./Tabs.css";
 import Informeautosafe from "./Informeautosafe";
 import Transferencia from "./Transferencia";
 import Precios from "./Precios";
-import blurright from "../../assets/Blur1.png";
 const TabsSection = () => {
   const [value, setValue] = React.useState("1");
 

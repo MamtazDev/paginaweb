@@ -9,19 +9,10 @@ import TabsSection from "../Tabs/TabsSection";
 import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 import "../../App.css";
 import blurleft from "../../assets/Blur.png";
-import Card from "./../CardCarousal/Card";
-import { GallaryMobile } from "../Gallary/GallaryMobile";
+
 const Home = () => {
   return (
-    <div
-      style={
-        {
-          // backgroundColor: "#F5FCFF",
-          // zIndex: "-999999999999999999",
-          // position: "relative",
-        }
-      }
-    >
+    <div>
       <Banner />
       <div className="desktop_tabs">
         <TabsSection />

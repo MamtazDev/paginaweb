@@ -1,18 +1,17 @@
 .veichleInfo_margin {
     border-radius: 20px;
     padding: 63px 48px 63px 48px !important;
-    margin: 0px ;
+    margin: 0px;
 
 }
 
-.veichle_section{
-    min-height:200px !important;
+.veichle_section {
+    min-height: 200px !important;
     background-image: url('../../assets/frame3.png') !important;
     background-repeat: no-repeat !important;
     margin-bottom: 80px;
     background-position: center;
     background-size: cover;
-    /* background-color: rebeccapurple; */
 }
 
 .vinfo_div {
@@ -53,8 +52,9 @@
     .veichleInfo_margin {
         padding: 24px;
     }
-.tab_blur_right{
-display: none;
-}
+
+    .tab_blur_right {
+        display: none;
+    }
 
 }

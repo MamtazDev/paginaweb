@@ -7,7 +7,6 @@
 .services_container {
     position: relative;
     min-height: 600px;
-    /* height: 100%; */
     padding-left: 35px;
 }
 
@@ -26,7 +25,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 22.4px */
 }
 
 .common_header {
@@ -233,7 +231,6 @@
 
     .mobile_car_gif img {
         width: 100%;
-        /* margin-bottom: 80px !important; */
     }
 
     .var_mas_info_text_mobile a {
