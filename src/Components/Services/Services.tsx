@@ -51,7 +51,7 @@ const Services = () => {
         <img src={car_gif} alt="" />
       </div>
       <div className="round_blur">
-        <img src={blur} alt="" />
+        <img className="img-fluid" src={blur} alt="" />
       </div>
     </div>
   );

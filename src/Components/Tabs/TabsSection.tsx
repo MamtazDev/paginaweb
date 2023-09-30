@@ -13,6 +13,7 @@ const TabsSection = () => {
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
+    console.log(event);
   };
 
   return (
@@ -68,7 +69,6 @@ const TabsSection = () => {
           </TabPanel>
         </TabContext>
       </Box>
-   
     </div>
   );
 };

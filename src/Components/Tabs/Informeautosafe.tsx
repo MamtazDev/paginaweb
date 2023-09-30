@@ -98,7 +98,7 @@ const Informeautosafe = () => {
         </Col>
       </Row>
       <div className="tab_blur_right">
-        <img src={blur} alt="" />
+        <img className="img-fluid" src={blur} alt="" />
       </div>
     </div>
   );

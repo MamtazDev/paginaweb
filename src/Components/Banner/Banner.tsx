@@ -20,9 +20,9 @@ const Banner = () => {
         </div>
       </div>
       {/* blur image */}
-      {/* <div className="blur_image">
+      <div className="blur_image">
         <img src={blurleft} alt="" />
-      </div> */}
+      </div>
     </div>
   );
 };
