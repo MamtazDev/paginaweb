@@ -9,7 +9,7 @@ const Service2 = () => {
     <div className="container_width ">
       <div className="service_2_container">
         <Row className="desktop_device_card">
-          <Col md={6} sm={12}>
+          <Col md={6} sm={12} className="left_container">
             <div className="service2_left">
               <h2 className="common_header1">Vende tu auto</h2>
               <small>

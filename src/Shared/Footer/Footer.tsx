@@ -1,13 +1,13 @@
 import logo from "../../assets/Logo.png";
-import './Footer.css'
+import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "80px", background: "#f5fcfe" }}>
       <footer className="footer_bg">
         <div className="container_width ">
           <div className="row footer_padding_sm">
             <div className="col-md-12">
-              <div className="row" style={{marginRight:"0px"}}>
+              <div className="row" style={{ marginRight: "0px" }}>
                 <div className="col-md-3 mb-md-0 mb-4">
                   <h2 className="footer-heading">
                     <img src={logo} alt="" />
@@ -132,7 +132,9 @@ const Footer = () => {
             </div>
           </div>
           <hr className="hr_design" />
-          <p className="copyright">All rights reserved AUTOSAFE. Powered by Autored</p>
+          <p className="copyright">
+            All rights reserved AUTOSAFE. Powered by Autored
+          </p>
         </div>
       </footer>
     </div>

@@ -23,7 +23,7 @@ const Home = () => {
       <div className="mobile_tabs">
         <MobileTabs />
       </div>
-      <VeichlesInfo />
+      {/* <VeichlesInfo /> */}
       <Services />
       <Service2 />
       <CardCarousal />

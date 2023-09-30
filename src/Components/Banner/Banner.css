@@ -3,7 +3,7 @@
   min-height: 400px;
   display: flex;
   position: relative;
-  background-color: #f5fcfe !important;
+  background-color: #e6f6fd !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,9 +57,6 @@
   padding-top: 70px;
 }
 
-.service2_left {
-  padding: 121px 69px 0px;
-}
 
 @media (max-width: 768px) {
   .blue_light_color {

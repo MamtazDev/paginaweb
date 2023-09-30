@@ -8,6 +8,8 @@ import t5 from "../../assets/t25.png";
 import t6 from "../../assets/t26.png";
 import t7 from "../../assets/t27.png";
 import rightArrow from "../../assets/Icon.png";
+import blur from "../../assets/orangeBlur.png";
+
 import "./Tabs.css";
 const Transferencia = () => {
   return (
@@ -107,6 +109,9 @@ const Transferencia = () => {
           </div>
         </Col>
       </Row>
+      <div className="tab_blur_right">
+        <img className="img-fluid" src={blur} alt="" />
+      </div>
     </div>
   );
 };

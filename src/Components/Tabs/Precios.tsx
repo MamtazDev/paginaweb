@@ -7,6 +7,7 @@ import t4 from "../../assets/t34.png";
 import t5 from "../../assets/t35.png";
 import t6 from "../../assets/t36.png";
 import rightArrow from "../../assets/Icon.png";
+import blur from "../../assets/orangeBlur.png";
 
 import "./Tabs.css";
 
@@ -116,6 +117,9 @@ const Precios = () => {
           </div>
         </Col>
       </Row>
+      <div className="tab_blur_right">
+        <img className="img-fluid" src={blur} alt="" />
+      </div>
     </>
   );
 };

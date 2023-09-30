@@ -22,12 +22,11 @@ const TabsSection = () => {
       style={{
         backgroundColor: "#F5FCFE",
         paddingTop: "33px",
-        position: "relative",
       }}
     >
       <Box
         className="container_width"
-        sx={{ typography: "body1", marginTop: "30px" }}
+        sx={{ typography: "body1", marginTop: "30px", position: "relative" }}
       >
         <TabContext value={value}>
           <Box>

@@ -53,7 +53,7 @@
     max-width: 458px !important;
     width: 100% !important;
     position: relative;
-    z-index: 1;
+    z-index: 1; 
 }
 
 .card_desc span {
@@ -152,6 +152,9 @@
     gap: 10px;
     margin-top: 8px;
 }
+.question_parent{
+    z-index: 1;
+}
 
 
 .var_mas_info_text_mobile a {
@@ -191,8 +194,14 @@
 .round_blur img {
     display: none;
 }
+.left_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 69px;
+    align-items: center;
+}
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 
     .round_blur {
         display: none;

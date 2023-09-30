@@ -50,6 +50,7 @@ const Gallary = () => {
           <GallaryMobile />
         </div>
       </div>
+      
     </div>
   );
 };

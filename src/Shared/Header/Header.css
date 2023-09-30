@@ -36,12 +36,15 @@
   letter-spacing: -0.72px;
   margin-bottom: 24px;
 }
+
 nav {
   width: 100%;
 }
+
 .main_navbar {
   background-color: transparent;
 }
+
 .navbar_colorChange {
   background: var(--neutros-white, #fff);
 }
@@ -233,21 +236,26 @@ nav .wrapper {
   right: 30px;
   top: 10px;
 }
+
 .navbar-expand-lg .navbar-nav {
   padding-right: 32px;
 }
+
 @media screen and (max-width: 970px) {
   .wrapper .btn.close-btn {
     position: flex;
     justify-content: space-around;
   }
+
   .close-btn img {
     position: absolute;
     right: 394% !important;
   }
+
   .close-btn i {
     margin-top: 20px;
   }
+
   .nav_bg_dark {
     display: none;
   }
@@ -255,6 +263,7 @@ nav .wrapper {
   .wrapper .btn {
     display: block;
   }
+
   .wrapper .nav-links {
     position: fixed;
     height: 100vh;
@@ -272,8 +281,7 @@ nav .wrapper {
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
-    height: 20px !important;
+    width: 3px;
   }
 
   ::-webkit-scrollbar-track {
@@ -282,18 +290,17 @@ nav .wrapper {
 
   ::-webkit-scrollbar-thumb {
     background: grey;
-    height: 50px;
   }
 
-  #menu-btn:checked ~ .nav-links {
+  #menu-btn:checked~.nav-links {
     left: 0%;
   }
 
-  #menu-btn:checked ~ .btn.menu-btn {
+  #menu-btn:checked~.btn.menu-btn {
     display: none;
   }
 
-  #close-btn:checked ~ .btn.menu-btn {
+  #close-btn:checked~.btn.menu-btn {
     display: block;
   }
 
@@ -320,13 +327,15 @@ nav .wrapper {
     transition: all 0.3s ease;
   }
 
-  #showDrop:checked ~ .drop-menu,
-  #showMega:checked ~ .mega-box {
+  #showDrop:checked~.drop-menu,
+  #showMega:checked~.mega-box {
     max-height: 100%;
   }
+
   .nav-links .desktop-item {
     display: none;
   }
+
   .nav-links .mobile-item {
     display: flex;
     justify-content: space-between;
@@ -334,11 +343,11 @@ nav .wrapper {
     color: #f2f2f2;
     font-size: 20px;
     font-weight: 500;
-    /* padding-left: 20px; */
     cursor: pointer;
     border-radius: 5px;
     transition: all 0.3s ease;
   }
+
   .drop-menu li {
     margin: 0;
   }
@@ -347,6 +356,7 @@ nav .wrapper {
     border-radius: 5px;
     font-size: 18px;
   }
+
   .mobile-item small {
     color: var(--neutros-medium, #67626f);
     font-family: Work Sans;
@@ -397,10 +407,12 @@ nav .wrapper {
   .content .row header {
     font-size: 19px;
   }
+
   .mobile_design_navbar {
     display: flex;
     justify-content: space-between !important;
   }
+
   .hr_nav {
     margin-top: 40px;
     margin-bottom: 24px;
@@ -420,11 +432,7 @@ nav input {
   text-align: center;
   padding: 0 30px;
 }
-/* .mobile-item{
-  display: flex;
-  justify-content: space-between;
-  width: 1000%;
-} */
+
 .body-text div {
   font-size: 45px;
   font-weight: 600;
