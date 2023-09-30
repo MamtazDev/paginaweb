@@ -89,4 +89,7 @@ margin-top: 24px;
   .next_prev_btn {
     display: none;
   }
+  .card_container{
+    margin-top: 80px;
+  }
 }

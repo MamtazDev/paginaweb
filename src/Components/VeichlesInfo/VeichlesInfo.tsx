@@ -6,7 +6,8 @@ import t2 from "../../assets/t21.png";
 import t3 from "../../assets/t31.png";
 const VeichlesInfo = () => {
   return (
-    <div className="container_width veichle_section">
+    <div >
+      <div className="container_width veichle_section">
       <div className="">
         <Row className="veichleInfo_margin">
           <Col md={4} sm={12}>
@@ -38,6 +39,7 @@ const VeichlesInfo = () => {
           </Col>
         </Row>
       </div>
+    </div>
     </div>
   );
 };

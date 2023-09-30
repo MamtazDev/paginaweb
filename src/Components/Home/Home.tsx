@@ -12,7 +12,7 @@ import blurleft from "../../assets/Blur.png";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"#f5fcfe",zIndex:"-99999999999999999"}}>
       <Banner />
       <div className="desktop_tabs">
         <TabsSection />

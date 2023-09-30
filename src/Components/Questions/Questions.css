@@ -17,12 +17,12 @@
     justify-content: center !important;
 }
 
-.question_blur{
-     position: absolute;
-     z-index: -1;
-     bottom: -277px;
-     left: 0;
-     transform: rotate(45deg);
+.question_blur {
+    position: absolute;
+    z-index: -1;
+    bottom: -277px;
+    left: 0;
+    transform: rotate(45deg);
 }
 
 .question_rows {
@@ -49,10 +49,15 @@
     margin: auto;
 }
 
+.question_blur {
+    display: none;
+}
+
 @media(max-width:767px) {
-    .question_blur{
+    .question_blur {
         display: none;
     }
+
     .per_question {
         margin-bottom: 16px;
         max-width: 248px;
