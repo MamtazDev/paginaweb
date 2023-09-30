@@ -6,7 +6,6 @@ import Service2 from "../Services/Service2";
 import Services from "../Services/Services";
 import MobileTabs from "../Tabs/MobileTabs";
 import TabsSection from "../Tabs/TabsSection";
-import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 import "../../App.css";
 import blurleft from "../../assets/Blur.png";
 
@@ -23,7 +22,6 @@ const Home = () => {
       <div className="mobile_tabs">
         <MobileTabs />
       </div>
-      <VeichlesInfo />
       <Services />
       <Service2 />
       <CardCarousal />
