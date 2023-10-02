@@ -60,7 +60,7 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
+                  <div className="row row_1 ">
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
