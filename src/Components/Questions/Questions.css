@@ -41,10 +41,6 @@
     width: 100%;
 }
 
-.question_blur_mobile img {
-    /* max-height: 500px; */
-}
-
 .question_rows {
     padding: 0 96px;
     margin-top: 39px;
