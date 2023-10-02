@@ -30,10 +30,10 @@
 
 .question_blur {
     position: absolute;
+    bottom: 66px;
+    left: 0px;
+    transform: rotate(90deg);
     z-index: -1 !important;
-    bottom: 46px;
-    left: 0;
-    transform: rotate(122deg);
 }
 
 .question_blur img {
