@@ -15,6 +15,7 @@
     font-weight: 600 !important;
     text-transform: initial !important;
     z-index: 1;
+    outline: none;
 
 }
 
@@ -40,6 +41,8 @@
 
 .tab_design:focus {
     border: none !important;
+    outline: none;
+    
 }
 
 .center_tab_margin {
@@ -53,6 +56,7 @@
 
 button:focus {
     outline: none !important;
+    border: none;
 }
 
 .css-13xfq8m-MuiTabPanel-root {
@@ -98,7 +102,6 @@ button:focus {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 25.2px */
     letter-spacing: -0.72px;
     margin-bottom: 48px;
 }
@@ -118,7 +121,6 @@ button:focus {
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
-    /* 22.4px */
     letter-spacing: -0.64px;
 }
 
@@ -130,8 +132,6 @@ button:focus {
     max-width: 560px;
     width: 100%;
     z-index: 1;
-    /* margin-left: 24px; */
-    /* margin-right: 80px; */
 }
 
 .var_mas_info_button {
@@ -163,11 +163,6 @@ button:focus {
     align-items: start;
     z-index: 1;
 }
-
-/* .img_3{
-    background-image: url('../../assets/Blur1.png') !important;
-
-} */
 
 /* tab 1 login part design */
 .login_container {
