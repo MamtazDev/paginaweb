@@ -1,5 +1,5 @@
 .banner_bg {
-  background-image: url("../../assets/banner_bg.png");
+  background-image: url("../../assets/Rectangle.png");
   min-height: 400px;
   display: flex;
   position: relative;
@@ -55,6 +55,8 @@
   text-align: center;
   margin: auto;
   padding-top: 70px;
+  z-index: 1;
+  position: relative;
 }
 
 
@@ -80,7 +82,7 @@
 
   .banner_bg {
     margin-bottom: 49.5px;
-    background-image: url("../../assets/header_res.png");
+    background-image: url("../../assets/header_res.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
   }
