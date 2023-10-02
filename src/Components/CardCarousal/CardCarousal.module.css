@@ -53,19 +53,6 @@
   margin: 48px 32px !important;
 }
 
-/* blur image */
-/* .carousal_blur {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.carousal_blur img {
-  max-width: 700px;
-  max-height: 700px;
-  position: relative;
-  z-index: -1 !important;
-} */
 
 .card_design img {
   width: 77.005px;

@@ -7,7 +7,6 @@ import MobileTabs from "../Tabs/MobileTabs";
 import TabsSection from "../Tabs/TabsSection";
 import "../../App.css";
 import blurleft from "../../assets/Blur.png";
-import blur from "../../assets/orangeBlur.png";
 import Carousal from "../CardCarousal/Carousal";
 import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 
@@ -28,12 +27,8 @@ const Home = () => {
       <Services />
       <Service2 />
       <div style={{ position: "relative" }}>
-        {/* <CardCarousal /> */}
         <Carousal />
         <Gallary />
-        <div className="carousal_blur">
-          <img className="img-fluid" src={blur} alt="" />
-        </div>
       </div>
       <Questions />
     </div>
