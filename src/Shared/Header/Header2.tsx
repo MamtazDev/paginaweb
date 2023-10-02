@@ -67,7 +67,7 @@ const Header2 = () => {
                       instante
                     </small>
                   </div>
-                  <div className="row row_1 " style={{ paddingLeft: "80px" }}>
+                  <div className="row row_1 ">
                     <header>Informe de precio</header>
                     <small className="megamenu_desc">
                       Conoce el real valor de mercado de tu auto
