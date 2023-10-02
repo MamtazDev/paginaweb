@@ -4,42 +4,46 @@ import { Col } from "react-bootstrap";
 import t1 from "../../assets/1.png";
 import t2 from "../../assets/t21.png";
 import t3 from "../../assets/t31.png";
+import blur from "../../assets/orangeBlur.png";
 const VeichlesInfo = () => {
   return (
-    <div >
+    <div style={{ position: "relative" }}>
       <div className="container_width veichle_section">
-      <div className="">
-        <Row className="veichleInfo_margin">
-          <Col md={4} sm={12}>
-            <div className="vinfo_div">
-              <img src={t1} alt="" />
-              <div>
-                <h5>200.000</h5>
-                <small>Informes vehiculares emitidos</small>
+        <div className="">
+          <Row className="veichleInfo_margin">
+            <Col md={4} sm={12}>
+              <div className="vinfo_div">
+                <img src={t1} alt="" />
+                <div>
+                  <h5>200.000</h5>
+                  <small>Informes vehiculares emitidos</small>
+                </div>
               </div>
-            </div>
-          </Col>
-          <Col md={4} sm={12}>
-            <div className="vinfo_div">
-              <img src={t2} alt="" />
-              <div>
-                <h5>30.000</h5>
-                <small>Transferencias de dominio realizadas</small>
+            </Col>
+            <Col md={4} sm={12}>
+              <div className="vinfo_div">
+                <img src={t2} alt="" />
+                <div>
+                  <h5>30.000</h5>
+                  <small>Transferencias de dominio realizadas</small>
+                </div>
               </div>
-            </div>
-          </Col>
-          <Col md={4} sm={12}>
-            <div className="vinfo_div">
-              <img src={t3} alt="" />
-              <div>
-                <h5>1.300</h5>
-                <small>Autos vendidos</small>
+            </Col>
+            <Col md={4} sm={12}>
+              <div className="vinfo_div">
+                <img src={t3} alt="" />
+                <div>
+                  <h5>1.300</h5>
+                  <small>Autos vendidos</small>
+                </div>
               </div>
-            </div>
-          </Col>
-        </Row>
+            </Col>
+          </Row>
+        </div>
       </div>
-    </div>
+      <div className="mobile_veichle_blur">
+        <img className="img-fluid" src={blur} alt="" />
+      </div>
     </div>
   );
 };

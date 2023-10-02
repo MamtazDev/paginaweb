@@ -4,6 +4,7 @@ import { Col } from "react-bootstrap";
 import car2 from "../../assets/car2.png";
 import rightArrow from "../../assets/arrow-right8.png";
 import { Link } from "react-router-dom";
+import blur from "../../assets/Blur.png";
 const Service2 = () => {
   return (
     <div className="container_width ">
@@ -44,6 +45,11 @@ const Service2 = () => {
               <img src={rightArrow} alt="" />
             </div>
           </div>
+        </div>
+
+        {/*  */}
+        <div className="service2_card_blur">
+          <img className="img-fluid" src={blur} alt="" />
         </div>
       </div>
     </div>

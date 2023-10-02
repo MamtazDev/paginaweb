@@ -194,6 +194,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 1 !important;
 }
 
 
@@ -205,9 +206,23 @@
     align-items: center;
 }
 
+.service2_card_blur {
+    display: none;
+}
+
+@media (max-width:400px) {
+    .service2_card_blur {
+        display: block;
+        position: absolute;
+        top: -105% !important;
+    }
+
+
+}
+
 @media(max-width:768px) {
 
-    
+
     .round_blur {
         display: none;
     }

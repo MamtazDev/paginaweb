@@ -1,7 +1,7 @@
 .veichleInfo_margin {
     border-radius: 20px;
     padding: 63px 48px 63px 48px !important;
-    /* margin: 0px; */
+
     border-radius: 20px !important;
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -12,7 +12,7 @@
     background-image: url('../../assets/frame3.png') !important;
     background-repeat: no-repeat !important;
     margin-bottom: 80px;
-    margin-top: 80px !important;
+    /* margin-top: 80px !important; */
     background-position: center;
     background-size: cover !important;
     border-radius: 50px !important;
@@ -47,14 +47,33 @@
     font-weight: 400;
 }
 
-@media(max-width:768px) {
-    
-    
-.veichle_section {
-    min-height: 300px !important;
-    padding: 1px;
-
+.mobile_veichle_blur {
+    display: none;
 }
+
+@media(max-width:360px) {
+    .mobile_veichle_blur {
+        bottom: -40% !important;
+
+
+    }
+}
+
+@media(max-width:768px) {
+    .mobile_veichle_blur {
+        display: block;
+        position: absolute;
+        bottom: -74%;
+        /* z-index: -1; */
+    }
+
+    .veichle_section {
+        min-height: 300px !important;
+        padding: 1px;
+        position: relative;
+        z-index: 1 !important;
+    }
+
     .vinfo_div {
         margin-bottom: 36px !important;
     }
@@ -64,17 +83,16 @@
     }
 
     .veichleInfo_margin {
-        margin: 70px 0px 70px 0px !important;
+        margin: 40px 0px 40px 0px !important;
     }
 
     .veichle_section {
         padding-top: 1px;
-        /* height: 725px; */
     }
 
-    .tab_blur_right {
+    /*     .tab_blur_right {
         display: none;
-    }
+    } */
 
     .veichle_section {
         margin: 0px 32px;

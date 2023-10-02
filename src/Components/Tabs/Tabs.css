@@ -62,7 +62,7 @@ button:focus {
 .tab_blur_right {
     position: absolute;
     right: -25%;
-    bottom: -168px;
+    bottom: -255px;
     transform: rotate(0deg);
 }
 
