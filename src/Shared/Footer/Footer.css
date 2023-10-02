@@ -49,22 +49,32 @@
 .footer_top_padding {
     padding-top: 80px;
 }
-.COL_PADDING{
+
+.COL_PADDING {
     padding: 0 !important;
 
 }
+
 @media (max-width:768px) {
     .footer_top_padding {
         padding-top: 0px !important;
     }
 
     .footer_padding_sm {
-        padding:0px 32px;
+        padding: 0px 32px;
     }
 
     .copyright {
         text-align: left;
         padding-left: 32px;
+        color: var(--neutros-medium, #67626F);
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 16.8px */
+        margin-top: 48px;
     }
 
     .hr_design {
