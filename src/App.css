@@ -183,8 +183,6 @@
 
 /* swipper */
 @media (max-width: 768px) {
- 
-
   .header_carousal h2 {
     color: var(--paleta-blue-dark, #002863);
     font-family: Work Sans;

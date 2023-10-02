@@ -20,7 +20,7 @@ const Carousal = () => {
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             slidesPerView={1}
-            spaceBetween={10}
+            spaceBetween={16}
             loop={true}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
@@ -37,7 +37,7 @@ const Carousal = () => {
 
               1024: {
                 slidesPerView: 3,
-                spaceBetween: 10,
+                spaceBetween: 16,
               },
             }}
           >

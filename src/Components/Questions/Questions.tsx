@@ -26,13 +26,12 @@ const Questions = () => {
             <div className="question_blur">
               <img className="img-fluid" src={blur} alt="" />
             </div>
-    
           </div>
         </div>
       </div>
       <div className="question_blur_mobile">
-              <img className="img-fluid" src={blur1} alt="" />
-            </div>
+        <img className="img-fluid" src={blur1} alt="" />
+      </div>
     </div>
   );
 };
