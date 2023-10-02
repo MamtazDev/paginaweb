@@ -84,10 +84,15 @@
     }
 
     .gallary_container {
-        margin: 32px !important;
+        height: 250px;
+        margin:0px 32px !important;
     }
 
     .gallary_desktop {
         display: none;
     }
+
+.owl-stage{
+    height: 100px;
+}
 }

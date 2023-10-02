@@ -2,11 +2,11 @@ import logo from "../../assets/Logo.png";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div style={{ paddingTop: "80px", background: "#f5fcfe" }}>
+    <div className="footer_top_padding" style={{ paddingTop: "", background: "#f5fcfe" }}>
       <footer className="footer_bg">
         <div className="container_width ">
           <div className="row footer_padding_sm">
-            <div className="col-md-12">
+            <div className="col-md-12 COL_PADDING">
               <div className="row" style={{ marginRight: "0px" }}>
                 <div className="col-md-3 mb-md-0 mb-4">
                   <h2 className="footer-heading">

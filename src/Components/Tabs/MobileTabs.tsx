@@ -52,7 +52,9 @@ const MobileTabs = () => {
                   />
                 </div>
                 <button className="login_btn">Comprar informe</button>
-                <p style={{ textAlign: "center" }}> Ver informe ejemplo</p>
+                <p className="tab2_login_last_text_mobile">
+                  Ver informe ejemplo
+                </p>
               </div>
             </div>
           </div>
