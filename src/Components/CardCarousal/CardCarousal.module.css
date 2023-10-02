@@ -11,16 +11,6 @@
   /* background: red; */
 }
 
-.card_container p {
-  color: var(--neutros-medium, #67626f);
-  font-family: Work Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
-  letter-spacing: -0.64px;
-  margin-bottom: 0px !important;
-}
 
 .half_card {
   width: 50%;
@@ -33,15 +23,7 @@
   margin-bottom: 48px;
 }
 
-.carousal_header h2 {
-  color: var(--paleta-blue-dark, #002863);
-  font-family: Work Sans;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140%;
-  letter-spacing: -1.44px;
-}
+
 
 .next_prev_btn {
   width: 64px;
@@ -51,7 +33,6 @@
   border: none;
   margin-right: 16px;
   cursor: pointer;
-  /* z-index: -100000000000000 !important; */
 }
 
 .card_design {
@@ -73,11 +54,10 @@
 }
 
 /* blur image */
-.carousal_blur {
+/* .carousal_blur {
   position: absolute;
   bottom: 0;
   right: 0;
-  /* z-index: -1; */
 }
 
 .carousal_blur img {
@@ -85,7 +65,7 @@
   max-height: 700px;
   position: relative;
   z-index: -1 !important;
-}
+} */
 
 .card_design img {
   width: 77.005px;

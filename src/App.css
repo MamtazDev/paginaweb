@@ -36,7 +36,7 @@
   opacity: 0;
 }
 
-.carousal_blur {
+/* .carousal_blur {
   position: absolute;
   bottom: 173px;
   right: 0;
@@ -45,9 +45,13 @@
 .carousal_blur img {
   max-width: 900px;
   max-height: 100%;
-}
+} */
 
 /* swipper */
+.swiper-slide {
+  max-width: 490px !important;
+width: 100% !important;
+}
 
 .swiper {
   padding: 2rem;
@@ -112,12 +116,95 @@
   background: center / cover no-repeat url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444271/samples/ecommerce/analog-classic.jpg");
 }
 
+
+.swiper_parent_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* . .header_carousal */
+.header_carousal h2 {
+  color: var(--paleta-blue-dark, #002863) !important;
+  font-family: Work Sans !important;
+  font-size: 36px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 140%;
+  /* 50.4px */
+  letter-spacing: -1.44px;
+}
+
+.header_carousal p {
+  color: var(--neutros-medium, #67626F);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.64px;
+}
+
+.header_car {
+  position: absolute;
+  top: 0;
+
+}
+
+.swiper-nav-btns button {
+  width: 64px;
+  height: 64px;
+  background-color: #50c0f9;
+  border-radius: 50%;
+  border: none;
+  margin-right: 16px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.swiper-nav-btns button:hover {
+  background-color: #6dc6f3;
+}
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  padding-top: 148px;
+  margin-bottom: 80px;
+  margin-left: 32px;
+}
+
+.swiper-nav-btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.carousal_swiper {
+  position: relative;
+}
+
 /* swipper */
 @media (max-width: 768px) {
+  .swiper-slide {
+    max-width: 490px !important;
+  
+  }
+
   .slick-slide {
     margin-right: 54px !important;
-    /* overflow-y: hidden !important; */
+  }
 
+  .swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding-top: 220px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .header_car {
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+
+  .swiper-nav-btns {
+    display: none;
   }
 
   .img3 img {

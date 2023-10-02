@@ -1,5 +1,4 @@
 import Banner from "../Banner/Banner";
-import CardCarousal from "../CardCarousal/CardCarousal";
 import Gallary from "../Gallary/Gallary";
 import Questions from "../Questions/Questions";
 import Service2 from "../Services/Service2";
@@ -10,6 +9,7 @@ import "../../App.css";
 import blurleft from "../../assets/Blur.png";
 import blur from "../../assets/orangeBlur.png";
 import Carousal from "../CardCarousal/Carousal";
+import VeichlesInfo from "../VeichlesInfo/VeichlesInfo";
 
 const Home = () => {
   return (
@@ -24,15 +24,16 @@ const Home = () => {
       <div className="mobile_tabs">
         <MobileTabs />
       </div>
+      <VeichlesInfo />
       <Services />
       <Service2 />
       <div style={{ position: "relative" }}>
         {/* <CardCarousal /> */}
-        <Carousal/>
+        <Carousal />
         <Gallary />
-       {/*  <div className="carousal_blur">
+        <div className="carousal_blur">
           <img className="img-fluid" src={blur} alt="" />
-        </div> */}
+        </div>
       </div>
       <Questions />
     </div>

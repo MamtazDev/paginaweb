@@ -18,9 +18,7 @@ const Carousal = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={1}
           spaceBetween={10}
-          //   navigation
-          //   pagination={{ clickable: true }}
-          //   scrollbar={{ draggable: true }}
+          loop={true}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           breakpoints={{
@@ -58,6 +56,13 @@ const Carousal = () => {
           <SwiperSlide>
             <Card />
           </SwiperSlide>
+          <div className="header_car">
+            <div className="header_carousal">
+              <p>Clientes felices</p>
+
+              <h2>Empresas que confían en nosotros</h2>
+            </div>
+          </div>
           <SwiperNavButton />
         </Swiper>
       </div>

@@ -3,6 +3,8 @@
     padding: 63px 48px 63px 48px !important;
     /* margin: 0px; */
     border-radius: 20px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .veichle_section {
@@ -46,6 +48,13 @@
 }
 
 @media(max-width:768px) {
+    
+    
+.veichle_section {
+    min-height: 300px !important;
+    padding: 1px;
+
+}
     .vinfo_div {
         margin-bottom: 36px !important;
     }
