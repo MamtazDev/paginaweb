@@ -23,7 +23,7 @@
     background-image: url('../../assets/frame3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 !important;
+    padding-bottom: 36px !important;
     background-position: center;
     border-radius: 50px !important;
 }
@@ -42,7 +42,7 @@
 }
 
 .question_blur_mobile img {
-   /* max-height: 500px; */
+    /* max-height: 500px; */
 }
 
 .question_rows {

@@ -2,7 +2,7 @@ import logo from "../../assets/Logo.png";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div style={{ paddingTop: "", background: "#f5fcfe" }}>
+    <div style={{ paddingTop: "80px", background: "#f5fcfe" }}>
       <footer className="footer_bg">
         <div className="container_width ">
           <div className="row footer_padding_sm">
