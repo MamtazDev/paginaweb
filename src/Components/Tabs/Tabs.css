@@ -32,7 +32,7 @@
     font-family: Work Sans !important;
     font-size: 18px !important;
     font-style: normal !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     text-transform: initial !important;
     z-index: 1;
 
@@ -55,10 +55,15 @@ button:focus {
     outline: none !important;
 }
 
+.css-13xfq8m-MuiTabPanel-root {
+    padding-left: 25px !important;
+}
+
 /* blur right imag */
 .desktop_tabs {
     position: relative;
 }
+
 .tab_blur_right {
     position: absolute;
     right: -25%;
@@ -125,6 +130,7 @@ button:focus {
     max-width: 560px;
     width: 100%;
     z-index: 1;
+    /* margin-left: 24px; */
     /* margin-right: 80px; */
 }
 
@@ -148,6 +154,7 @@ button:focus {
 .section2_container {
     margin: auto;
     margin-top: 65px;
+    margin-left: 50px;
 }
 
 .login_form {

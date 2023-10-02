@@ -2,6 +2,7 @@ import "./Questions.css";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import blur from "../../assets/Blur3.png";
+import blur1 from "../../assets/qm_blur.png";
 const Questions = () => {
   return (
     <div style={{ position: "relative" }}>
@@ -25,9 +26,13 @@ const Questions = () => {
             <div className="question_blur">
               <img className="img-fluid" src={blur} alt="" />
             </div>
+    
           </div>
         </div>
       </div>
+      <div className="question_blur_mobile">
+              <img className="img-fluid" src={blur1} alt="" />
+            </div>
     </div>
   );
 };

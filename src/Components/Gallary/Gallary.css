@@ -27,7 +27,8 @@
 
 
 .mobile_gallary_img {
-    width: 100px !important;
+    width: 80px !important;
+    height: 80px !important;
 }
 
 .mobile_gallary_img img {

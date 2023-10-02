@@ -84,6 +84,15 @@
 
 
 @media(max-width:768px) {
+  .card_design p {
+    color: var(--paleta-orange, #FFA801) !important;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 19.6px */
+  }
   .next_prev_btn {
     display: none;
   }

@@ -180,8 +180,11 @@
 .round_blur_carousal img {
   width: 100%;
 }
+
 /* swipper */
 @media (max-width: 768px) {
+ 
+
   .header_carousal h2 {
     color: var(--paleta-blue-dark, #002863);
     font-family: Work Sans;
@@ -191,7 +194,7 @@
     line-height: 140%;
     letter-spacing: -0.96px;
   }
-  
+
   .round_blur_carousal {
     display: none;
   }
@@ -221,9 +224,9 @@
   }
 
   .img3 img {
-   max-width: 300px;
-   width: 100%;
-   z-index: -1;
+    max-width: 300px;
+    width: 100%;
+    z-index: -1;
   }
 
 
