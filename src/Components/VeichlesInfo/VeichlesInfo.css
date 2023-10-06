@@ -1,23 +1,22 @@
 .veichleInfo_margin {
     border-radius: 20px;
     padding: 45px 48px 30px 48px !important;
-
     border-radius: 20px !important;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
+
 }
 
 .veichle_section {
     min-height: 173px !important;
     height: 100%;
-    background-image: url('../../assets/frame3.png') !important;
-    background-repeat: no-repeat !important;
-    margin-bottom: 80px;
-    margin-top: 80px !important;
-    background-position: center;
-    background-size: cover !important;
-    border-radius: 50px !important;
-    /* box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05); */
+    /* background-image: url('../../assets/frame3.png') !important; */
+    /* background-repeat: no-repeat !important; */
+    /* background-position: center; */
+    /* background-size: cover !important; */
+    margin: 80px 32px !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
+    background: var(--neutros-white, #FFF);
+
 }
 
 .vinfo_div {
@@ -55,16 +54,22 @@
     .mobile_veichle_blur {
         bottom: -40% !important;
     }
- 
+
 }
 
 @media(max-width:768px) {
-    .vinfo_div h5{
+    .veichleInfo_margin {
+        /* padding: 48px !important; */
+    }
+
+    .vinfo_div h5 {
         font-size: 24px;
     }
-    .vinfo_div small{
+
+    .vinfo_div small {
         font-size: 14px;
     }
+
     .mobile_veichle_blur {
         display: block;
         position: absolute;
@@ -77,7 +82,7 @@
         padding: 1px;
         position: relative;
         z-index: 1 !important;
-        margin-top: 0px !important ;
+        /* margin-top: 0px !important; */
     }
 
     .vinfo_div {
@@ -89,9 +94,9 @@
     }
 
     .veichleInfo_margin {
-        margin: 40px 0px 40px 0px !important;
+        /* margin: 40px 0px 40px 0px !important;
 
-        padding:80px 48px 80px 48px !important;
+        padding:80px 48px 80px 48px !important; */
 
     }
 

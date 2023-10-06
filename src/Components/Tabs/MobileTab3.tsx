@@ -1,6 +1,8 @@
-import downarrow from "../../assets/arrow-drop-down-line.png";
+import downarrow from "../../assets/orangedrop.png";
 import "./Tabs.css";
-const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }) => {
+import t1 from "../../assets/2.png";
+
+const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }:any) => {
   const handleOpen = () => {
     setOpen3(!open3);
     setOpen(false);
@@ -10,21 +12,22 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }) => {
     <div>
       <div className="close_tab_design">
         <div className="tab_mobile_header" onClick={handleOpen}>
-          <small>Informe de precios</small>
-          <img src={downarrow} alt="" />
+          <div className="d-flex justify-content-center align-items-start mobile_flex">
+            <img src={t1} alt="" />
+            <div>
+              <small className="inform_auto_save">Informe precios</small> <br />
+              <span>
+                Conoce el precio y tasación real de mercado de un vehículo usado
+              </span>
+            </div>
+            <img src={downarrow} alt="" />
+          </div>
         </div>
 
-        {open3 && (
-          <div className="open_tab">
-            <div className="t2_desc">
-              <p>
-                Transfiere el dominio de tu vehículo de forma rápida y segura,
-                dondequiera que estés, con la misma validez que en
-                notaria.¡Inicia tu transferencia ahora!
-              </p>
-            </div>
-            <div className="">
-              <form className="login_container_mobile">
+        
+          <div className={open3 ? "open_tab" : "close_tab"} >
+            <div>
+              <form className="login_container_mobile mt-3">
                 <div className="form-group">
                   <label htmlFor="exampleInputEmail1" className="label_login">
                     Ingresa la patente
@@ -78,7 +81,7 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }) => {
               </form>
             </div>
           </div>
-        )}
+        
       </div>
     </div>
   );

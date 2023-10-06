@@ -6,11 +6,10 @@ import t2 from "../../assets/t21.png";
 import t3 from "../../assets/t31.png";
 import blur from "../../assets/orangeBlur.png";
 
-
 const VeichlesInfo = () => {
   return (
-    <div >
-      <div className="container_width veichle_section">
+    <div className="container_width">
+      <div className=" veichle_section">
         <div className="">
           <Row className="veichleInfo_margin">
             <Col md={4} sm={12}>

@@ -39,13 +39,30 @@
 
 }
 
+.open_tab {
+    visibility: visible;
+    opacity: 1;
+    /* height: fit-content; */
+    /* height: 310px; */
+    transition: ease-in 0.8s;
+}
+
+.close_tab {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    transition: ease-out 0s;
+}
+
 .tab_design:focus {
     border: none !important;
     outline: none;
-    
+
 }
-.var_mas_info_button:focus{
-    border: 2px solid var(--paleta-blue-light, #50C0F9) !important  ; 
+
+.var_mas_info_button:focus {
+    border: 2px solid var(--paleta-blue-light, #50C0F9) !important;
 }
 
 .center_tab_margin {
@@ -64,6 +81,7 @@ button:focus {
 
 .css-13xfq8m-MuiTabPanel-root {
     padding-left: 25px !important;
+    padding-bottom: 0px !important;
 }
 
 /* blur right imag */
@@ -109,6 +127,10 @@ button:focus {
     margin-bottom: 48px;
 }
 
+.mobile_flex {
+    gap: 9.5px;
+}
+
 .common_div_flex {
     display: flex;
     justify-content: start;
@@ -151,7 +173,7 @@ button:focus {
     font-style: normal;
     font-weight: 500;
     background-color: transparent;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
 }
 
 .section2_container {
@@ -280,12 +302,30 @@ label {
 .tab_mobile_header small {
     color: var(--neutros-dark, #121113);
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: -0.8px;
     cursor: pointer;
+
+}
+
+.tab_mobile_header span {
+    color: var(--neutros-medium, #67626F);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+    letter-spacing: -0.56px;
+}
+
+.mobile_flex img {
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
 }
 
 .tab_mobile_header {
@@ -293,6 +333,7 @@ label {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    /* margin-bottom: 16px; */
 }
 
 .login_container_mobile {
@@ -321,6 +362,7 @@ label {
     font-weight: 500;
     text-align: center;
     gap: 8px;
+    padding: 8px;
 }
 
 .blur_image2 {
