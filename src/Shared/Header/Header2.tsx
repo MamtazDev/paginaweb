@@ -13,9 +13,8 @@ const Header2 = () => {
     }
   };
 
-  const [showDropDownPhn, setShowDropDownPhn] = useState(null)
-    useEffect(() => {}, [showDropDownPhn])
-
+  const [showDropDownPhn, setShowDropDownPhn] = useState<number | null>(0);
+  useEffect(() => {}, [showDropDownPhn]);
 
   window.addEventListener("scroll", changeNavbarColor);
   return (
@@ -40,22 +39,22 @@ const Header2 = () => {
             <hr className="hr_nav" />
             <li>
               <input type="checkbox" id="" />
-                <div className="mobile_top_links">
-                  <a href="/" className="">
-                    Empresa
-                  </a>
-                  <a href="/" className="">
-                    Quienes somos
-                  </a>
-                  <a href="/" className="">
-                    Blog  
-                  </a>
-                  <a href="/" className="">
-                    Contacto
-                  </a>
-                </div>
+              <div className="mobile_top_links">
+                <a href="/" className="">
+                  Empresa
+                </a>
+                <a href="/" className="">
+                  Quienes somos
+                </a>
+                <a href="/" className="">
+                  Blog
+                </a>
+                <a href="/" className="">
+                  Contacto
+                </a>
+              </div>
               <hr />
-               <div className="mega-box">
+              <div className="mega-box">
                 <div className="content">
                   <div className="row row_1 bg_red">
                     <header>Informe Autosafe</header>
@@ -91,16 +90,26 @@ const Header2 = () => {
               </a>
 
               {/* ref */}
-              <input  checked={showDropDownPhn === 0 ? true : false} type="checkbox" id="showMega" />
-              <label onClick={() => showDropDownPhn !== 0  ?  setShowDropDownPhn(0) :  setShowDropDownPhn(null)}  className="mobile-item">
-                <small > Informes autosafe</small>
+              <input
+                checked={showDropDownPhn === 0 ? true : false}
+                type="checkbox"
+                id="showMega"
+              />
+              <label
+                onClick={() =>
+                  showDropDownPhn !== 0
+                    ? setShowDropDownPhn(0)
+                    : setShowDropDownPhn(null)
+                }
+                className="mobile-item"
+              >
+                <small> Informes autosafe</small>
                 <img
                   src={bottomArrow}
                   style={{ height: "24px", width: "24px" }}
                   alt=""
                 />
               </label>
-         
 
               {/* desktop */}
               <div className="mega-box">
@@ -112,7 +121,7 @@ const Header2 = () => {
                       ornare nisl est pulvinar pulvinar morbi.
                     </small>
                   </div>
-                  <div className="row row_1 " >
+                  <div className="row row_1 ">
                     <header>Informe Historial</header>
                     <small className="megamenu_desc">
                       Entérate de todo el historial de un vehículo usado al
@@ -137,8 +146,20 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input  checked={showDropDownPhn === 1 ? true : false}  type="checkbox" id="showMega1" />
-              <label  onClick={() => showDropDownPhn !== 1  ?  setShowDropDownPhn(1) :  setShowDropDownPhn(null)}  htmlFor="showMega1" className="mobile-item">
+              <input
+                checked={showDropDownPhn === 1 ? true : false}
+                type="checkbox"
+                id="showMega1"
+              />
+              <label
+                onClick={() =>
+                  showDropDownPhn !== 1
+                    ? setShowDropDownPhn(1)
+                    : setShowDropDownPhn(null)
+                }
+                htmlFor="showMega1"
+                className="mobile-item"
+              >
                 <small> Transferencia de dominio</small>
                 <img
                   src={bottomArrow}
@@ -180,8 +201,20 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input  checked={showDropDownPhn === 2 ? true : false} type="checkbox" id="showMega2" />
-              <label  onClick={() => showDropDownPhn !== 2  ?  setShowDropDownPhn(2) :  setShowDropDownPhn(null)} htmlFor="showMega2" className="mobile-item">
+              <input
+                checked={showDropDownPhn === 2 ? true : false}
+                type="checkbox"
+                id="showMega2"
+              />
+              <label
+                onClick={() =>
+                  showDropDownPhn !== 2
+                    ? setShowDropDownPhn(2)
+                    : setShowDropDownPhn(null)
+                }
+                htmlFor="showMega2"
+                className="mobile-item"
+              >
                 <small> Vende tu auto</small>
                 <img
                   src={bottomArrow}
@@ -223,8 +256,20 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input checked={showDropDownPhn === 3 ? true : false} type="checkbox" id="showMega3" />
-              <label  onClick={() => showDropDownPhn !== 3  ?  setShowDropDownPhn(3) :  setShowDropDownPhn(null)} htmlFor="showMega3" className="mobile-item">
+              <input
+                checked={showDropDownPhn === 3 ? true : false}
+                type="checkbox"
+                id="showMega3"
+              />
+              <label
+                onClick={() =>
+                  showDropDownPhn !== 3
+                    ? setShowDropDownPhn(3)
+                    : setShowDropDownPhn(null)
+                }
+                htmlFor="showMega3"
+                className="mobile-item"
+              >
                 <small> Servicios complementarios</small>
                 <img
                   src={bottomArrow}
@@ -271,8 +316,6 @@ const Header2 = () => {
 };
 
 export default Header2;
-
-
 
 // import logo from "../../assets/Logo.png";
 // import bottomArrow from "../../assets/bottomarrow.png";
@@ -370,7 +413,6 @@ export default Header2;
 //                   alt=""
 //                 />
 //               </label>
-         
 
 //               {/* desktop */}
 //               <div className="mega-box">
