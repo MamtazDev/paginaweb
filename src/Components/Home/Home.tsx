@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: "#f5fcfe", zIndex: "" }}>
       <Banner />
-      <div className="desktop_tabs">
+      {/* <div className="desktop_tabs"> */}
         <TabsSection />
-      </div>
+      {/* </div> */}
       <div className="img3">
         <img src={blurleft} alt="" />
       </div>

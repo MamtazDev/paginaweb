@@ -10,20 +10,26 @@ const Service2 = () => {
     <div className="container_width ">
       <div className="service_2_container">
         <Row className="desktop_device_card">
-          <Col md={6} sm={12} className="left_container">
+          <Col md={7} sm={12} className="left_container">
             <div className="service2_left">
               <h2 className="common_header1">Vende tu auto</h2>
               <small>
                 Lorem ipsum dolor sit amet consectetur. Suspendisse nisl ornare
                 nisl est pulvinar pulvinar morbi.
               </small>
-              <div className="var_mas_info_text">
+              {/*    <div className="var_mas_info_text">
                 <Link to="/"> Ver más información</Link>
                 <img src={rightArrow} alt="" />
+              </div> */}
+              <div>
+                <button className="var_mas_info_button mt-3">
+                  Ver más información
+                  <img src={rightArrow} alt="" />
+                </button>
               </div>
             </div>
           </Col>
-          <Col md={6} sm={12} className="section2_right_img">
+          <Col md={5} sm={12} className="section2_right_img">
             <img className="img-fluid" src={car2} alt="" />
           </Col>
         </Row>
@@ -40,10 +46,14 @@ const Service2 = () => {
               Lorem ipsum dolor sit amet consectetur. Suspendisse nisl ornare
               nisl est pulvinar pulvinar morbi.
             </p>
-            <div className="var_mas_info_text_mobile">
+              <div className="var_mas_info_text_mobile">
               <Link to="/"> Ver más información</Link>
               <img src={rightArrow} alt="" />
             </div>
+       {/*      <button className="var_mas_info_button">
+              Ver más información
+              <img src={rightArrow} alt="" />
+            </button> */}
           </div>
         </div>
 

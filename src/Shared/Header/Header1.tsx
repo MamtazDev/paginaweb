@@ -4,9 +4,9 @@ const Header1 = () => {
     <div className="nav_bg_dark">
       <div className="navbar navbar-expand-lg navbar-dark container_width sticky-top">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto d-flex justify-content-center align-items-center">
+          <ul className="navbar-nav ml-auto d-flex justify-content-center align-items-center first_nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link mt-1" href="#" >
                 Empresa
               </a>
             </li>
@@ -16,7 +16,7 @@ const Header1 = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link mt-1" href="#">
                 Quienes somos
               </a>
             </li>
@@ -26,7 +26,7 @@ const Header1 = () => {
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#">
+              <a className="nav-link mt-1" href="#">
                 Blog
               </a>
             </li>
@@ -36,7 +36,7 @@ const Header1 = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link mt-1" href="#">
                 Contacto
               </a>
             </li>

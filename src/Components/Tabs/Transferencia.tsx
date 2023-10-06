@@ -11,6 +11,7 @@ import rightArrow from "../../assets/Icon.png";
 import blur from "../../assets/orangeBlur.png";
 
 import "./Tabs.css";
+import { Link } from "react-router-dom";
 const Transferencia = () => {
   return (
     <div>
@@ -66,7 +67,7 @@ const Transferencia = () => {
           </button>
         </Col>
         <Col className="login_form" sm={6} md={6}>
-          <div className="login_container">
+          <form className="login_container">
             <h3>Solicita tu transferencia</h3>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1" className="label_login">
@@ -78,9 +79,10 @@ const Transferencia = () => {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="XXX-XXX"
+                required
               />
             </div>
-            <div className="form-group">
+            <form className="form-group">
               <label htmlFor="exampleInputEmail1">Ingresa tu correo</label>
               <input
                 type="email"
@@ -88,25 +90,32 @@ const Transferencia = () => {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="mail@mail.com"
+                required
               />
-            </div>
+            </form>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">
                 Ingresa tu número de teléfono
               </label>
               <input
-                type="email"
+                type="number"
                 className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="+569 1234 5678"
+                required
               />
             </div>
-            <button className="login_btn">Iniciar transferencia</button>
+            <button type="submit" className="login_btn">
+              Iniciar transferencia
+            </button>
             <small className="d-flex justify-content-center align-items-center tab2_login_last_text ">
-              Seguimiento de transferencia <img src={rightArrow} alt="" />
+              <Link to="/" className="tab2_login_last_text">
+                Seguimiento de transferencia
+              </Link>
+              <img src={rightArrow} alt="" />
             </small>
-          </div>
+          </form>
         </Col>
       </Row>
       <div className="tab_blur_right">

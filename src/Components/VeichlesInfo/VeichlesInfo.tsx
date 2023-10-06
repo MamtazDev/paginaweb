@@ -5,9 +5,11 @@ import t1 from "../../assets/1.png";
 import t2 from "../../assets/t21.png";
 import t3 from "../../assets/t31.png";
 import blur from "../../assets/orangeBlur.png";
+
+
 const VeichlesInfo = () => {
   return (
-    <div style={{ position: "relative" }}>
+    <div >
       <div className="container_width veichle_section">
         <div className="">
           <Row className="veichleInfo_margin">
@@ -42,7 +44,7 @@ const VeichlesInfo = () => {
         </div>
       </div>
       <div className="mobile_veichle_blur">
-        <img className="img-fluid" src={blur} alt="" />
+        <img className="img-fluid" src={blur} alt=" " />
       </div>
     </div>
   );

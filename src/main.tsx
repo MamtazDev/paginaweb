@@ -10,7 +10,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    children: [{ path: "/", element: <Home /> }],
+    children: [{ path: "/", element: <Home />  }],
+
+    // suspense loadier loader 
   },
 ]);
 

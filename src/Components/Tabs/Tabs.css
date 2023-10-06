@@ -44,6 +44,9 @@
     outline: none;
     
 }
+.var_mas_info_button:focus{
+    border: 2px solid var(--paleta-blue-light, #50C0F9) !important  ; 
+}
 
 .center_tab_margin {
     margin-left: 16px !important;
@@ -225,11 +228,11 @@ label {
 
 /* tab 2 */
 .tab2_login_last_text {
-    color: var(--paleta-blue-light, #50C0F9);
-    font-family: Work Sans;
-    font-size: 18px;
+    color: var(--paleta-blue-light, #50C0F9) !important;
+    font-family: Work Sans !important;
+    font-size: 18px !important;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500 !important;
     text-align: center;
     gap: 8px;
 }

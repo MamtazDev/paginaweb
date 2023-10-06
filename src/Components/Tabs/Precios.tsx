@@ -10,6 +10,7 @@ import rightArrow from "../../assets/Icon.png";
 import blur from "../../assets/orangeBlur.png";
 
 import "./Tabs.css";
+import { Link } from "react-router-dom";
 
 const Precios = () => {
   return (
@@ -66,9 +67,9 @@ const Precios = () => {
           </button>
         </Col>
         <Col className="login_form" sm={6} md={6}>
-          <div className="login_container">
+          <form className="login_container">
             <h3>Pide tu informe</h3>
-            <div className="form-group">
+            <form className="form-group">
               <label htmlFor="exampleInputEmail1" className="label_login">
                 Ingresa la patente
               </label>
@@ -78,8 +79,9 @@ const Precios = () => {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="XXX-XXX"
+                required
               />
-            </div>
+            </form>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Ingresa tu correo</label>
               <input
@@ -88,6 +90,7 @@ const Precios = () => {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="mail@mail.com"
+                required
               />
             </div>
             <div className="select_container">
@@ -113,8 +116,8 @@ const Precios = () => {
               </div>
             </div>
             <button className="login_btn">Comprar informe</button>
-            <p>Ver informe ejemplo</p>
-          </div>
+            <p ><Link to="/" className="tab2_login_last_text">Ver informe ejemplo</Link></p>
+          </form>
         </Col>
       </Row>
       <div className="tab_blur_right">

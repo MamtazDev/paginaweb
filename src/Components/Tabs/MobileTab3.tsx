@@ -1,12 +1,10 @@
-import { useState } from "react";
 import downarrow from "../../assets/arrow-drop-down-line.png";
 import "./Tabs.css";
-const MobileTab3 = () => {
-  const [open, setOpen] = useState(false);
-
+const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }) => {
   const handleOpen = () => {
-    console.log("first");
-    setOpen(!open);
+    setOpen3(!open3);
+    setOpen(false);
+    setOpen2(false);
   };
   return (
     <div>
@@ -16,7 +14,7 @@ const MobileTab3 = () => {
           <img src={downarrow} alt="" />
         </div>
 
-        {open && (
+        {open3 && (
           <div className="open_tab">
             <div className="t2_desc">
               <p>
@@ -26,7 +24,7 @@ const MobileTab3 = () => {
               </p>
             </div>
             <div className="">
-              <div className="login_container_mobile">
+              <form className="login_container_mobile">
                 <div className="form-group">
                   <label htmlFor="exampleInputEmail1" className="label_login">
                     Ingresa la patente
@@ -37,6 +35,7 @@ const MobileTab3 = () => {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="XXX-XXX"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -47,6 +46,7 @@ const MobileTab3 = () => {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="mail@mail.com"
+                    required
                   />
                 </div>
                 <div className="select_container">
@@ -75,7 +75,7 @@ const MobileTab3 = () => {
                 <p className="tab2_login_last_text_mobile">
                   Ver informe ejemplo
                 </p>
-              </div>
+              </form>
             </div>
           </div>
         )}

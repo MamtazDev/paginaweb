@@ -12,15 +12,19 @@ const Questions = () => {
             <h2 className="common_header3">¿Qué estás esperando?</h2>
             <Row className="question_rows">
               <Col md={4} sm={12}>
-                <div className="tab_design1 per_question">Pedir informe</div>
+                <button className="tab_design1 per_question">
+                  Pedir informe
+                </button>
               </Col>
               <Col md={4} sm={12}>
-                <div className="tab_design1 per_question">
+                <button className="tab_design1 per_question">
                   Transferir un vehículo
-                </div>
+                </button>
               </Col>
               <Col md={4} sm={12}>
-                <div className="tab_design1 per_question">Vender mi auto</div>
+                <button className="tab_design1 per_question">
+                  Vender mi auto
+                </button>
               </Col>
             </Row>
             <div className="question_blur">

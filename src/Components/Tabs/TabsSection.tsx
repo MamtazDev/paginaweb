@@ -18,7 +18,7 @@ const TabsSection = () => {
 
   return (
     <div
-      className="desktop_tabs blur_left_parent"
+      className=" desktop_tabs desktop_tabs blur_left_parent"
       style={{
         backgroundColor: "#F5FCFE",
         paddingTop: "33px",

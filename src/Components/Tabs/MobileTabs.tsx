@@ -5,10 +5,13 @@ import MobileTab2 from "./MobileTab2";
 import MobileTab3 from "./MobileTab3";
 const MobileTabs = () => {
   const [open, setOpen] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
 
   const handleOpen = () => {
-    console.log("first");
     setOpen(!open);
+    setOpen2(false)
+    setOpen3(false)
   };
   return (
     <div>
@@ -27,7 +30,7 @@ const MobileTabs = () => {
               </p>
             </div>
             <div className="">
-              <div className="login_container_mobile">
+              <form className="login_container_mobile">
                 <h3>Pide tu informe</h3>
                 <div className="form-group">
                   <label htmlFor="exampleInputEmail1" className="label_login">
@@ -39,6 +42,7 @@ const MobileTabs = () => {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="XXX-XXX"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -49,19 +53,20 @@ const MobileTabs = () => {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="mail@mail.com"
+                    required
                   />
                 </div>
                 <button className="login_btn">Comprar informe</button>
                 <p className="tab2_login_last_text_mobile">
                   Ver informe ejemplo
                 </p>
-              </div>
+              </form>
             </div>
           </div>
         )}
       </div>
-      <MobileTab2 />
-      <MobileTab3 />
+      <MobileTab2 setOpen={setOpen} setOpen2={setOpen2} setOpen3={setOpen3} open2={open2} />
+      <MobileTab3 setOpen={setOpen} setOpen2={setOpen2} setOpen3={setOpen3} open3={open3} />
     </div>
   );
 };

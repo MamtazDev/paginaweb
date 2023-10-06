@@ -1,3 +1,10 @@
+.first_nav li a{
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  
+}
+
 .nav_bg_dark {
   background: var(--neutros-dark, #121113);
   min-height: 40px !important;
@@ -47,13 +54,15 @@ nav {
 
 .navbar_colorChange {
   background: var(--neutros-white, #fff);
+  position: fixed;
+  top: 0;
+  opacity: 1;
 }
 
 nav .wrapper {
   position: relative;
   max-width: 1280px;
-  padding: 22px 31px 22px 33px;
-
+  /* padding: 22px 31px 22px 33px; */
   height: 80px;
   line-height: 70px;
   margin: auto;
@@ -75,8 +84,13 @@ nav .wrapper {
   margin-top: 14px;
 }
 
+.mobile_top_links {
+  display: none;
+}
+
 .nav-links li {
   list-style: none;
+  padding: 22px 10px;
 }
 
 .nav-links li a {
@@ -119,7 +133,9 @@ nav .wrapper {
   opacity: 1;
   visibility: visible;
 }
-
+.mega-box .content:hover .mega-box{
+  visibility: visible !important;
+}
 /* my class */
 .desktop-item {
   display: flex;
@@ -131,7 +147,7 @@ nav .wrapper {
 .row_1 {
   max-width: 363px !important;
   width: 100%;
-  padding: 51px 66px 53px 35px;
+  padding: 51px 66px 53px 90px;
 
 }
 
@@ -154,7 +170,7 @@ nav .wrapper {
   left: 0;
   width: 100%;
   padding: 0 30px;
-  top: 85px;
+  top: 73px;
   opacity: 0;
   visibility: hidden;
 }
@@ -244,9 +260,19 @@ nav .wrapper {
 }
 
 @media screen and (max-width: 970px) {
+  .mobile_top_links {
+    display: block;
+  }
+
+  .nav-links li:hover .drop-menu,
+  .nav-links li:hover .mega_mobile {
+    transition: all 0.3s ease;
+    top: 81px;
+    opacity: 1;
+    visibility: visible;
+  }
 
   .row_1 {
-    /* width: 363px !important; */
     width: 100% !important;
     padding: 25px 20px 25px 20px;
   }
@@ -343,6 +369,25 @@ nav .wrapper {
   #showDrop:checked~.drop-menu,
   #showMega:checked~.mega-box {
     max-height: 100%;
+    margin-top: 40px;
+  }
+
+  #showDrop:checked~.drop-menu,
+  #showMega1:checked~.mega-box {
+    max-height: 100%;
+    margin-top: 40px;
+  }
+
+  #showDrop:checked~.drop-menu,
+  #showMega3:checked~.mega-box {
+    max-height: 100%;
+    margin-top: 40px;
+  }
+
+  #showDrop:checked~.drop-menu,
+  #showMega2:checked~.mega-box {
+    max-height: 100%;
+    margin-top: 40px;
   }
 
   .nav-links .desktop-item {

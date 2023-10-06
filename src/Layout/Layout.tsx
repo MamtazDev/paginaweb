@@ -3,6 +3,7 @@ import Header1 from "../Shared/Header/Header1";
 import Header2 from "../Shared/Header/Header2";
 import { Outlet } from "react-router-dom";
 
+
 const Layout = () => {
   return (
     <div className="">

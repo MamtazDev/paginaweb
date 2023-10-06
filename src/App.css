@@ -312,3 +312,11 @@
 .css-ttwr4n {
   background-color: rgb(25 118 210 / 0%)!important;
 }
+
+button{
+  /* border: none !important; */
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+}

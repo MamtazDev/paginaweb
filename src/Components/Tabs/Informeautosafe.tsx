@@ -10,6 +10,7 @@ import t7 from "../../assets/7.png";
 import rightArrow from "../../assets/arrow-right8.png";
 import blur from "../../assets/orangeBlur.png";
 import "./Tabs.css";
+import { Link } from "react-router-dom";
 const Informeautosafe = () => {
   return (
     <div className="">
@@ -68,33 +69,39 @@ const Informeautosafe = () => {
           </button>
         </Col>
         <Col className="login_form img_3" sm={6} md={6}>
-          <div className="login_container">
-            <h3>Pide tu informe</h3>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1" className="label_login">
-                Ingresa la patente
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="XXX-XXX"
-              />
+          <form className="login_container">
+            <div >
+              <h3>Pide tu informe</h3>
+              <div className="form-group">
+                <label htmlFor="exampleInputEmail1" className="label_login">
+                  Ingresa la patente
+                </label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="XXX-XXX"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="exampleInputEmail1">Ingresa tu correo</label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="mail@mail.com"
+                  required
+                />
+              </div>
+              <button type="submit" className="login_btn">
+                Comprar informe
+              </button>
+              <p ><Link to="/" className="tab2_login_last_text">Ver informe ejemplo</Link></p>
             </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Ingresa tu correo</label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="mail@mail.com"
-              />
-            </div>
-            <button className="login_btn">Comprar informe</button>
-            <p>Ver informe ejemplo</p>
-          </div>
+          </form>
         </Col>
       </Row>
       <div className="tab_blur_right">
