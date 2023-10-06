@@ -320,3 +320,10 @@ button{
 a:hover{
   text-decoration: none;
 }
+input{
+  padding: 12px;
+  border-radius: 3px;
+  border: 1px solid #EBEBEB;
+  background: var(--neutros-white, #FFF);
+  height: 49px;
+}

@@ -98,6 +98,7 @@ const Precios = () => {
                 <select
                   className="form_select"
                   aria-label="Default select example"
+                  required
                 >
                   <option selected>2020</option>
                   <option>2021</option>
@@ -108,6 +109,7 @@ const Precios = () => {
                 <select
                   className="form_select"
                   aria-label="Default select example"
+                  required
                 >
                   <option selected>0km</option>
                   <option value="">1km</option>
@@ -115,8 +117,14 @@ const Precios = () => {
                 </select>
               </div>
             </div>
-            <button className="login_btn">Comprar informe</button>
-            <p ><Link to="/" className="tab2_login_last_text">Ver informe ejemplo</Link></p>
+            <button type="submit" className="login_btn">
+              Comprar informe
+            </button>
+            <p>
+              <Link to="/" className="tab2_login_last_text">
+                Ver informe ejemplo
+              </Link>
+            </p>
           </form>
         </Col>
       </Row>

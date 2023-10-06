@@ -139,6 +139,10 @@ button:focus {
     margin-bottom: 24px;
 }
 
+.common_div_flex:last-child {
+    margin-bottom: 0px !important;
+}
+
 .common_div_flex small {
     color: var(--neutros-medium, #67626F);
     font-family: Work Sans;
