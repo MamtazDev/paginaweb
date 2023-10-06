@@ -12,10 +12,8 @@ const Header2 = () => {
       setColorchange(false);
     }
   };
-
-  const [showDropDownPhn, setShowDropDownPhn] = useState<number | null>(0);
+  const [showDropDownPhn, setShowDropDownPhn] = useState<number | null>();
   useEffect(() => {}, [showDropDownPhn]);
-
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="">
