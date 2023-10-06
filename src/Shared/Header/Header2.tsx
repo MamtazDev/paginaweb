@@ -1,6 +1,6 @@
 import logo from "../../assets/Logo.png";
 import bottomArrow from "../../assets/bottomarrow.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header2 = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -12,6 +12,11 @@ const Header2 = () => {
       setColorchange(false);
     }
   };
+
+  const [showDropDownPhn, setShowDropDownPhn] = useState(null)
+    useEffect(() => {}, [showDropDownPhn])
+
+
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div className="">
@@ -84,9 +89,11 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input type="checkbox" id="showMega" />
-              <label htmlFor="showMega" className="mobile-item">
-                <small> Informes autosafe</small>
+
+              {/* ref */}
+              <input  checked={showDropDownPhn === 0 ? true : false} type="checkbox" id="showMega" />
+              <label onClick={() => showDropDownPhn !== 0  ?  setShowDropDownPhn(0) :  setShowDropDownPhn(null)}  className="mobile-item">
+                <small > Informes autosafe</small>
                 <img
                   src={bottomArrow}
                   style={{ height: "24px", width: "24px" }}
@@ -121,7 +128,6 @@ const Header2 = () => {
                 </div>
               </div>
             </li>
-
             <li>
               <a href="#" className="desktop-item">
                 Transferencia de dominio
@@ -131,8 +137,8 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input type="checkbox" id="showMega1" />
-              <label htmlFor="showMega1" className="mobile-item">
+              <input  checked={showDropDownPhn === 1 ? true : false}  type="checkbox" id="showMega1" />
+              <label  onClick={() => showDropDownPhn !== 1  ?  setShowDropDownPhn(1) :  setShowDropDownPhn(null)}  htmlFor="showMega1" className="mobile-item">
                 <small> Transferencia de dominio</small>
                 <img
                   src={bottomArrow}
@@ -174,8 +180,8 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input type="checkbox" id="showMega2" />
-              <label htmlFor="showMega2" className="mobile-item">
+              <input  checked={showDropDownPhn === 2 ? true : false} type="checkbox" id="showMega2" />
+              <label  onClick={() => showDropDownPhn !== 2  ?  setShowDropDownPhn(2) :  setShowDropDownPhn(null)} htmlFor="showMega2" className="mobile-item">
                 <small> Vende tu auto</small>
                 <img
                   src={bottomArrow}
@@ -217,8 +223,8 @@ const Header2 = () => {
                   alt=""
                 />
               </a>
-              <input type="checkbox" id="showMega3" />
-              <label htmlFor="showMega3" className="mobile-item">
+              <input checked={showDropDownPhn === 3 ? true : false} type="checkbox" id="showMega3" />
+              <label  onClick={() => showDropDownPhn !== 3  ?  setShowDropDownPhn(3) :  setShowDropDownPhn(null)} htmlFor="showMega3" className="mobile-item">
                 <small> Servicios complementarios</small>
                 <img
                   src={bottomArrow}

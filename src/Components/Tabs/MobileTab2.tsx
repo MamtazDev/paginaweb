@@ -3,14 +3,14 @@ import "./Tabs.css";
 import rightArrow from "../../assets/Icon.png";
 import t1 from "../../assets/3.png";
 
-const MobileTab2 = ({ setOpen, setOpen2, setOpen3, open2 }:any) => {
+const MobileTab2 = ({ setOpen, setOpen2, setOpen3, open2 }: any) => {
   const handleOpen = () => {
     setOpen2(!open2);
     setOpen(false);
     setOpen3(false);
   };
 
-  console.log(open2,"j")
+  console.log(open2, "j");
   return (
     <div>
       <div className="close_tab_design newDesign">
@@ -20,7 +20,7 @@ const MobileTab2 = ({ setOpen, setOpen2, setOpen3, open2 }:any) => {
             <div>
               <small className="inform_auto_save">
                 Transferir un vehículo usado online
-              </small>{" "}
+              </small>
               <br />
               <span>Rápido, fácil y seguro</span>
             </div>
@@ -28,8 +28,8 @@ const MobileTab2 = ({ setOpen, setOpen2, setOpen3, open2 }:any) => {
           </div>
         </div>
 
-        <div className={open2 ? "open_tab" : "close_tab"}>
-          <form className="login_container_mobile mt-3">
+        <div className={open2 ? "open_tab mt-3" : "close_tab"}>
+          <form className="login_container_mobile ">
             <div className="form-group">
               <label htmlFor="exampleInputEmail1" className="label_login">
                 Ingresa la patente

@@ -27,10 +27,10 @@ const MobileTabs = () => {
             </div>
             <img src={downarrow} alt="" />
           </div>
-        </div>
-        <div className={open ? "open_tab" : "close_tab"}>
+        </div> 
+        <div className={open ? "open_tab mt-3" : "close_tab"}>
           <div>
-            <form className="login_container_mobile pt-3">
+            <form className="login_container_mobile">
               <div className="form-group">
                 <label htmlFor="exampleInputEmail1" className="label_login">
                   Ingresa la patente

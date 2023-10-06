@@ -25,9 +25,9 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }:any) => {
         </div>
 
         
-          <div className={open3 ? "open_tab" : "close_tab"} >
+          <div className={open3 ? "open_tab mt-3" : "close_tab"} >
             <div>
-              <form className="login_container_mobile mt-3">
+              <form className="login_container_mobile ">
                 <div className="form-group">
                   <label htmlFor="exampleInputEmail1" className="label_login">
                     Ingresa la patente

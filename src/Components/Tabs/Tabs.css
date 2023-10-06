@@ -297,6 +297,7 @@ label {
     width: 296px;
     padding: 16px !important;
     margin-bottom: 8px;
+    transition: 2s ease-out;
 }
 
 .tab_mobile_header small {
