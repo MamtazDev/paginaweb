@@ -165,6 +165,22 @@ button:focus {
 
 .var_mas_info_button {
     border-radius: 10px;
+    border: 2px solid var(--paleta-blue-light, #50C0F9);
+    padding: 8px 24px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: var(--paleta-blue-light, #50C0F9);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: transparent;
+    margin-bottom: 36px;
+}
+.var_mas_info_button1 {
+    border-radius: 10px;
     border: 0;
     /* padding: 8px 24px; */
     display: flex;

@@ -22,7 +22,7 @@ const Service2 = () => {
                 <img src={rightArrow} alt="" />
               </div> */}
               <div>
-                <button className="var_mas_info_button mt-3">
+                <button className="var_mas_info_button1 mt-3">
                   Ver más información
                   <img src={rightArrow} alt="" />
                 </button>
