@@ -20,7 +20,7 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }: any) => {
                 Conoce el precio y tasación real de mercado de un vehículo usado
               </span>
             </div>
-            <img src={downarrow} alt="" />
+            <img   className={open3 ? "rotate_image" : ""} src={downarrow} alt="" />
           </div>
         </div>
 
@@ -64,6 +64,7 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }: any) => {
                   </select>
                 </div>
                 <div className="select_design">
+                  <label htmlFor="">Kilometraje</label>
                   <select
                     className="form_select"
                     aria-label="Default select example"
@@ -75,7 +76,9 @@ const MobileTab3 = ({ setOpen, open3, setOpen3, setOpen2 }: any) => {
                   </select>
                 </div>
               </div>
-              <button type="button" className="login_btn">Comprar informe</button>
+              <button type="button" className="login_btn">
+                Comprar informe
+              </button>
               <p className="tab2_login_last_text_mobile">Ver informe ejemplo</p>
             </form>
           </div>

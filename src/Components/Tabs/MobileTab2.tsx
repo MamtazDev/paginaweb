@@ -24,7 +24,11 @@ const MobileTab2 = ({ setOpen, setOpen2, setOpen3, open2 }: any) => {
               <br />
               <span>Rápido, fácil y seguro</span>
             </div>
-            <img src={downarrow} alt="" />
+            <img
+              className={open2 ? "rotate_image" : ""}
+              src={downarrow}
+              alt=""
+            />
           </div>
         </div>
 

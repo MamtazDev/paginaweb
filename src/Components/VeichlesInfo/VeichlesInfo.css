@@ -39,11 +39,11 @@
 }
 
 .vinfo_div small {
-    color: var(--neutros-medium, #67626F);
-    font-family: Rubik;
+    color: var(--neutros-medium, #67626F) !important;
+    font-family: 'Rubik' !important;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    font-style: normal !important;
+    font-weight: 400 !important;
 }
 
 .mobile_veichle_blur {

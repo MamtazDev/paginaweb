@@ -7,7 +7,7 @@ import t4 from "../../assets/t24.png";
 import t5 from "../../assets/t25.png";
 import t6 from "../../assets/t26.png";
 import t7 from "../../assets/t27.png";
-import rightArrow from "../../assets/Icon.png";
+import rightArrow from "../../assets/arrow-right8.png";
 import blur from "../../assets/orangeBlur.png";
 
 import "./Tabs.css";

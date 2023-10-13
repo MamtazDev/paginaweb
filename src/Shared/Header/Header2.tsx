@@ -302,9 +302,10 @@ const Header2 = () => {
             </li>
           </ul>
           <label htmlFor="menu-btn" className="btn menu-btn ">
+            Menú
             <i
               className="fa-solid fa-ellipsis-vertical"
-              style={{ marginTop: "15px" }}
+              style={{ marginTop: "15px",marginLeft:"8px" }}
             ></i>
           </label>
         </div>

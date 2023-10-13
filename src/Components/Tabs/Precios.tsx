@@ -6,7 +6,7 @@ import t3 from "../../assets/t33.png";
 import t4 from "../../assets/t34.png";
 import t5 from "../../assets/t35.png";
 import t6 from "../../assets/t36.png";
-import rightArrow from "../../assets/Icon.png";
+import rightArrow from "../../assets/arrow-right8.png";
 import blur from "../../assets/orangeBlur.png";
 
 import "./Tabs.css";
@@ -95,6 +95,7 @@ const Precios = () => {
             </div>
             <div className="select_container">
               <div className="select_design">
+                <label htmlFor="">Versión</label>
                 <select
                   className="form_select"
                   aria-label="Default select example"
@@ -106,6 +107,7 @@ const Precios = () => {
                 </select>
               </div>
               <div className="select_design">
+                <label htmlFor="">Kilometraje</label>
                 <select
                   className="form_select"
                   aria-label="Default select example"

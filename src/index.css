@@ -5,3 +5,7 @@
     max-width: 1280px;
     margin: auto;
 }
+
+body {
+    font-family: 'Work Sans';
+}

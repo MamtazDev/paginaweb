@@ -78,6 +78,7 @@
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.56px;
+    margin-top: 8px !important;
 }
 
 .car_gif {
@@ -214,6 +215,11 @@
 
 .service2_card_blur {
     display: none;
+}
+
+.service2_card_blur img {
+    position: relative;
+    z-index: -1;
 }
 
 @media (max-width:400px) {

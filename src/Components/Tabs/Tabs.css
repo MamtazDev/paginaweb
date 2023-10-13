@@ -165,15 +165,15 @@ button:focus {
 
 .var_mas_info_button {
     border-radius: 10px;
-    border: 2px solid var(--paleta-blue-light, #50C0F9);
-    padding: 8px 24px;
+    border: 0;
+    /* padding: 8px 24px; */
     display: flex;
     gap: 8px;
     justify-content: center;
     align-items: center;
     color: var(--paleta-blue-light, #50C0F9);
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     background-color: transparent;
@@ -269,13 +269,14 @@ label {
     width: 100%;
     display: flex;
     padding: 12px !important;
-    border: 0;
+    color: var(--neutros-medium, #67626F) !important;
+
     justify-content: space-between;
+    border: 1px solid #EBEBEB;
 }
 
 .select_design {
     width: 100%;
-    border: 1px solid #EBEBEB;
     background: var(--neutros-white, #FFF);
 }
 
@@ -286,7 +287,7 @@ label {
 
 .select_container {
     display: flex;
-    padding: 12px;
+    /* padding: 12px; */
     justify-content: space-between;
     align-items: center;
     gap: 16px;
@@ -373,4 +374,8 @@ label {
 .blur_image2 {
     background-image: url('../../assets/Blur1.png');
     position: absolute;
+}
+
+.rotate_image {
+    transform: rotate(180deg);
 }

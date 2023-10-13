@@ -25,9 +25,13 @@ const MobileTabs = () => {
               <br />
               <span>Consulta Información por Patente en minutos</span>
             </div>
-            <img src={downarrow} alt="" />
+            <img
+              className={open ? "rotate_image" : ""}
+              src={downarrow}
+              alt=""
+            />
           </div>
-        </div> 
+        </div>
         <div className={open ? "open_tab mt-3" : "close_tab"}>
           <div>
             <form className="login_container_mobile">

@@ -52,6 +52,15 @@ nav {
   background-color: transparent;
 }
 
+/* hover effect */
+.row_1:hover{
+background-color: #E6F6FE;
+}
+
+
+
+/* hover effect */
+
 .navbar_colorChange {
   background: var(--neutros-white, #fff);
   position: fixed;
