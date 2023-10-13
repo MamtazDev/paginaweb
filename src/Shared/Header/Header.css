@@ -53,11 +53,21 @@ nav {
 }
 
 /* hover effect */
-.row_1:hover{
-background-color: #E6F6FE;
+.row_1:hover {
+  background-color: #E6F6FE;
 }
 
 
+.sub_category_link {
+  padding: 0 !important;
+  color: #888 !important;
+  font-family: 'Work Sans' !important;
+  font-size: 18px !important;
+  font-style: normal  ;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
 
 /* hover effect */
 

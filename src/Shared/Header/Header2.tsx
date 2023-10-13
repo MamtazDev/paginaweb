@@ -108,32 +108,41 @@ const Header2 = () => {
                   alt=""
                 />
               </label>
-
-              {/* desktop */}
-              <div className="mega-box">
-                <div className="content">
-                  <div className="row row_1 bg_red">
-                    <header>Informe Autosafe</header>
-                    <small className="megamenu_desc">
-                      Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
-                      ornare nisl est pulvinar pulvinar morbi.
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe Historial</header>
-                    <small className="megamenu_desc">
-                      Entérate de todo el historial de un vehículo usado al
-                      instante
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe de precio</header>
-                    <small className="megamenu_desc">
-                      Conoce el real valor de mercado de tu auto
-                    </small>
+              {showDropDownPhn == 0 ? (
+                <div>
+                  <a href="" className="sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                  <a href="" className="mt-2 ms-0 sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                </div>
+              ) : (
+                <div className="mega-box">
+                  <div className="content">
+                    <div className="row row_1 bg_red">
+                      <header>Informe Autosafe</header>
+                      <small className="megamenu_desc">
+                        Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
+                        ornare nisl est pulvinar pulvinar morbi.
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe Historial</header>
+                      <small className="megamenu_desc">
+                        Entérate de todo el historial de un vehículo usado al
+                        instante
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe de precio</header>
+                      <small className="megamenu_desc">
+                        Conoce el real valor de mercado de tu auto
+                      </small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </li>
             <li>
               <a href="#" className="desktop-item">
@@ -165,30 +174,41 @@ const Header2 = () => {
                   alt=""
                 />
               </label>
-              <div className="mega-box">
-                <div className="content">
-                  <div className="row row_1 bg_red">
-                    <header>Informe Autosafe</header>
-                    <small className="megamenu_desc">
-                      Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
-                      ornare nisl est pulvinar pulvinar morbi.
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe Historial</header>
-                    <small className="megamenu_desc">
-                      Entérate de todo el historial de un vehículo usado al
-                      instante
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe de precio</header>
-                    <small className="megamenu_desc">
-                      Conoce el real valor de mercado de tu auto
-                    </small>
+              {showDropDownPhn == 1 ? (
+                <div>
+                  <a href="" className="sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                  <a href="" className="mt-2 ms-0 sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                </div>
+              ) : (
+                <div className="mega-box">
+                  <div className="content">
+                    <div className="row row_1 bg_red">
+                      <header>Informe Autosafe</header>
+                      <small className="megamenu_desc">
+                        Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
+                        ornare nisl est pulvinar pulvinar morbi.
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe Historial</header>
+                      <small className="megamenu_desc">
+                        Entérate de todo el historial de un vehículo usado al
+                        instante
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe de precio</header>
+                      <small className="megamenu_desc">
+                        Conoce el real valor de mercado de tu auto
+                      </small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </li>
             <li>
               <a href="#" className="desktop-item">
@@ -220,30 +240,41 @@ const Header2 = () => {
                   alt=""
                 />
               </label>
-              <div className="mega-box">
-                <div className="content">
-                  <div className="row row_1 bg_red">
-                    <header>Informe Autosafe</header>
-                    <small className="megamenu_desc">
-                      Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
-                      ornare nisl est pulvinar pulvinar morbi.
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe Historial</header>
-                    <small className="megamenu_desc">
-                      Entérate de todo el historial de un vehículo usado al
-                      instante
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe de precio</header>
-                    <small className="megamenu_desc">
-                      Conoce el real valor de mercado de tu auto
-                    </small>
+              {showDropDownPhn == 2 ? (
+                <div>
+                  <a href="" className="sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                  <a href="" className="mt-2 ms-0 sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                </div>
+              ) : (
+                <div className="mega-box">
+                  <div className="content">
+                    <div className="row row_1 bg_red">
+                      <header>Informe Autosafe</header>
+                      <small className="megamenu_desc">
+                        Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
+                        ornare nisl est pulvinar pulvinar morbi.
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe Historial</header>
+                      <small className="megamenu_desc">
+                        Entérate de todo el historial de un vehículo usado al
+                        instante
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe de precio</header>
+                      <small className="megamenu_desc">
+                        Conoce el real valor de mercado de tu auto
+                      </small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </li>
             <li>
               <a href="#" className="desktop-item">
@@ -275,37 +306,48 @@ const Header2 = () => {
                   alt=""
                 />
               </label>
-              <div className="mega-box">
-                <div className="content">
-                  <div className="row row_1 bg_red">
-                    <header>Informe Autosafe</header>
-                    <small className="megamenu_desc">
-                      Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
-                      ornare nisl est pulvinar pulvinar morbi.
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe Historial</header>
-                    <small className="megamenu_desc">
-                      Entérate de todo el historial de un vehículo usado al
-                      instante
-                    </small>
-                  </div>
-                  <div className="row row_1 ">
-                    <header>Informe de precio</header>
-                    <small className="megamenu_desc">
-                      Conoce el real valor de mercado de tu auto
-                    </small>
+              {showDropDownPhn == 3 ? (
+                <div>
+                  <a href="" className="sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                  <a href="" className="mt-2 ms-0 sub_category_link">
+                    <small>Sub Category</small>
+                  </a>
+                </div>
+              ) : (
+                <div className="mega-box">
+                  <div className="content">
+                    <div className="row row_1 bg_red">
+                      <header>Informe Autosafe</header>
+                      <small className="megamenu_desc">
+                        Lorem ipsum dolor sit amet consectetur. Suspendisse nisl
+                        ornare nisl est pulvinar pulvinar morbi.
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe Historial</header>
+                      <small className="megamenu_desc">
+                        Entérate de todo el historial de un vehículo usado al
+                        instante
+                      </small>
+                    </div>
+                    <div className="row row_1 ">
+                      <header>Informe de precio</header>
+                      <small className="megamenu_desc">
+                        Conoce el real valor de mercado de tu auto
+                      </small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              )}
             </li>
           </ul>
           <label htmlFor="menu-btn" className="btn menu-btn ">
             Menú
             <i
               className="fa-solid fa-ellipsis-vertical"
-              style={{ marginTop: "15px",marginLeft:"8px" }}
+              style={{ marginTop: "15px", marginLeft: "8px" }}
             ></i>
           </label>
         </div>

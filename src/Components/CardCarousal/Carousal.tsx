@@ -25,8 +25,13 @@ const Carousal = () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
             breakpoints={{
+              700: {
+                slidesPerView: 2,
+                spaceBetween: 10
+              ,
+              },
               640: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 16,
               },
 
@@ -59,13 +64,13 @@ const Carousal = () => {
             <SwiperSlide>
               <Card />
             </SwiperSlide>
-            <div className="header_car">
+            {/* <div className="header_car">
               <div className="header_carousal">
                 <p>Clientes felices</p>
 
                 <h2>Empresas que confían en nosotros</h2>
               </div>
-            </div>
+            </div> */}
             <SwiperNavButton />
           </Swiper>
         </div>

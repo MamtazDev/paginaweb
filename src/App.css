@@ -47,8 +47,8 @@
 }
 
 .swiper .res-slide {
-  min-width: 300px;
-  max-width: 400px;
+  /* min-width: 300px;
+  max-width: 400px; */
   min-height: 350px;
   border: 2px solid hsl(210, 100%, 50%);
   border-radius: 20px;
@@ -183,6 +183,10 @@
 
 /* swipper */
 @media (max-width: 768px) {
+  .swiper-slide {
+    max-width: 490px !important;
+    width: 90% !important;
+  }
   .header_carousal h2 {
     color: var(--paleta-blue-dark, #002863);
     font-family: Work Sans;
@@ -197,10 +201,7 @@
     display: none;
   }
 
-  .swiper-slide {
-    max-width: 490px !important;
 
-  }
 
   .slick-slide {
     margin-right: 54px !important;
@@ -305,22 +306,24 @@
 }
 
 .css-1anid1y {
-  position: unset!important;
+  position: unset !important;
   /* display: none!important; */
 }
 
 .css-ttwr4n {
-  background-color: rgb(25 118 210 / 0%)!important;
+  background-color: rgb(25 118 210 / 0%) !important;
 }
 
-button{
+button {
   /* border: none !important; */
   cursor: pointer;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
-input{
+
+input {
   padding: 12px;
   border-radius: 3px;
   border: 1px solid #EBEBEB;
