@@ -1,8 +1,16 @@
 import logo from "../../assets/Logo.png";
 import "./Footer.css";
+import solar_lock from "../../assets/solar_lock-linear.png";
+import f1 from "../../assets/f1.png";
+import f2 from "../../assets/f2.png";
+import f3 from "../../assets/f3.png";
+import f4 from "../../assets/f4.png";
 const Footer = () => {
   return (
-    <div className="footer_top_padding" style={{ paddingTop: "", background: "#f5fcfe" }}>
+    <div
+      className="footer_top_padding"
+      style={{ paddingTop: "", background: "#f5fcfe" }}
+    >
       <footer className="footer_bg">
         <div className="container_width ">
           <div className="row footer_padding_sm">
@@ -132,9 +140,25 @@ const Footer = () => {
             </div>
           </div>
           <hr className="hr_design" />
-          <p className="copyright">
-            All rights reserved AUTOSAFE. Powered by Autored
-          </p>
+          <div className="small_footer">
+            <p className="copyright">
+              All rights reserved AUTOSAFE. Powered by Autored
+            </p>
+            <div className="last_footer">
+              <div>
+                <span>Pago seguro</span>
+                <img src={solar_lock} alt="" />
+              </div>
+              <p className="line">|</p>
+              <p>En este sitio puedes pagar con:</p>
+              <div>
+                <img src={f1} alt="" />
+                <img src={f2} alt="" />
+                <img src={f3} alt="" />
+                <img src={f4} alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
