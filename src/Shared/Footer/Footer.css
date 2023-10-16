@@ -70,14 +70,21 @@
 p {
     margin: 0;
 }
-.last_footer span{
+
+.last_footer span {
     margin-right: 10px;
 }
-.last_footer img{
+
+.last_footer img {
     margin-right: 10px;
 }
+
 @media (max-width:768px) {
     .line {
+        display: none;
+    }
+
+    .copyright {
         display: none;
     }
 
@@ -123,7 +130,7 @@ p {
     .hr_design {
         margin-left: 20px;
         margin-right: 20px;
-        border-bottom: 2px solid #DDD;
+        border-bottom: 2px solid #C5E0EE;
     }
 
     .footer_bg {
