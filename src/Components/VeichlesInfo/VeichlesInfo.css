@@ -1,6 +1,6 @@
 .veichleInfo_margin {
     border-radius: 20px;
-    padding: 45px 48px 30px 48px !important;
+    padding: 53px 17px 30px 48px !important;
     border-radius: 20px !important;
 
 }
@@ -8,17 +8,11 @@
 .veichle_section {
     min-height: 173px !important;
     height: 100%;
-    /* background-image: url('../../assets/frame3.png') !important; */
-    /* background-repeat: no-repeat !important; */
-    /* background-position: center; */
-    /* background-size: cover !important; */
     margin: 80px 32px !important;
     border-radius: 20px !important;
     box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
     background: var(--neutros-white, #FFF);
-
 }
-
 .vinfo_div {
     display: flex;
     justify-content: center;
@@ -28,19 +22,19 @@
 
 }
 
-.vinfo_div h5 {
+.v_info_title {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
-    font-size: 28px;
+    font-family: 'Work Sans', sans-serif;    font-size: 28px !important;
     font-style: normal;
     font-weight: 700;
-    line-height: 140% !important;
-    margin-bottom: 0 !important;
+    margin-bottom: 3px;
 }
+
 
 .vinfo_div small {
     color: var(--neutros-medium, #67626F) !important;
-    font-family: 'Rubik' !important;
+    font-family: 'Rubik', sans-serif;
+
     font-size: 18px;
     font-style: normal !important;
     font-weight: 400 !important;
@@ -58,9 +52,7 @@
 }
 
 @media(max-width:768px) {
-    .veichleInfo_margin {
-        /* padding: 48px !important; */
-    }
+
 
     .vinfo_div h5 {
         font-size: 24px;

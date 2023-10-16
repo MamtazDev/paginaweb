@@ -7,7 +7,7 @@
 
 .footer-heading {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -21,7 +21,7 @@
 
 .footer_links li a {
     color: var(--neutros-medium, #67626F);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +32,7 @@
     text-align: center;
     color: var(--paleta-blue-dark, #002863);
     text-align: center;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -68,7 +68,7 @@
         text-align: left;
         padding-left: 32px;
         color: var(--neutros-medium, #67626F);
-        font-family: Work Sans;
+        font-family: 'Work Sans', sans-serif !important;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;

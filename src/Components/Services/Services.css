@@ -25,7 +25,7 @@
 
 .services_container p {
     color: var(--neutros-medium, #67626F);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -34,7 +34,7 @@
 
 .common_header {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -62,7 +62,7 @@
 
 .card_desc span {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -72,7 +72,7 @@
 
 .card_desc p {
     color: var(--neutros-medium, #67626F);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -89,7 +89,7 @@
 
 .common_header1 {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -98,7 +98,7 @@
 }
 
 .service_2_container {
-    margin: 0px 32px 80px !important;
+    margin: 0px 32px 25px !important;
     border-radius: 20px;
     background: var(--neutros-white, #FFF);
     box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.05);
@@ -116,7 +116,7 @@
 
 .service2_left small {
     color: var(--neutros-medium, #67626F);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -137,7 +137,7 @@
 
 .var_mas_info_text a {
     color: var(--paleta-blue-light, #50C0F9);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -170,7 +170,7 @@
 
 .var_mas_info_text_mobile a {
     color: var(--paleta-blue-light, #50C0F9) !important;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -282,7 +282,7 @@
 
     .var_mas_info_text_mobile a {
         color: var(--paleta-blue-light, #50C0F9) !important;
-        font-family: Work Sans;
+        font-family: 'Work Sans', sans-serif !important;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;

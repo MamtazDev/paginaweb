@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 import bottomArrow from "../../assets/bottomarrow.png";
+import arrow from "../../assets/arrow-right8.png";
 import { useEffect, useState } from "react";
 
 const Header2 = () => {
@@ -119,7 +121,7 @@ const Header2 = () => {
                 </div>
               ) : (
                 <div className="mega-box">
-                  <div className="content">
+                  <div className="content menu_content">
                     <div className="row row_1 bg_red">
                       <header>Informe Autosafe</header>
                       <small className="megamenu_desc">
@@ -133,12 +135,20 @@ const Header2 = () => {
                         Entérate de todo el historial de un vehículo usado al
                         instante
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                     <div className="row row_1 ">
                       <header>Informe de precio</header>
                       <small className="megamenu_desc">
                         Conoce el real valor de mercado de tu auto
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -199,12 +209,20 @@ const Header2 = () => {
                         Entérate de todo el historial de un vehículo usado al
                         instante
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                     <div className="row row_1 ">
                       <header>Informe de precio</header>
                       <small className="megamenu_desc">
                         Conoce el real valor de mercado de tu auto
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -265,12 +283,20 @@ const Header2 = () => {
                         Entérate de todo el historial de un vehículo usado al
                         instante
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                     <div className="row row_1 ">
                       <header>Informe de precio</header>
                       <small className="megamenu_desc">
                         Conoce el real valor de mercado de tu auto
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -331,12 +357,20 @@ const Header2 = () => {
                         Entérate de todo el historial de un vehículo usado al
                         instante
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                     <div className="row row_1 ">
                       <header>Informe de precio</header>
                       <small className="megamenu_desc">
                         Conoce el real valor de mercado de tu auto
                       </small>
+                      <div className="var_mas_icons">
+                        <Link to="/">Var mas</Link>
+                        <img src={arrow} alt="right-arrow" />
+                      </div>
                     </div>
                   </div>
                 </div>

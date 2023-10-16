@@ -1,6 +1,6 @@
 .common_subheader small {
     color: var(--neutros-medium, #67626F);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -8,7 +8,7 @@
 
 .common_subheader p {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;

@@ -114,7 +114,7 @@
 /* header_carousal */
 .header_carousal h2 {
   color: var(--paleta-blue-dark, #002863) !important;
-  font-family: Work Sans !important;
+  font-family: 'Work Sans', sans-serif !important;
   font-size: 36px !important;
   font-style: normal !important;
   font-weight: 600 !important;
@@ -125,7 +125,7 @@
 
 .header_carousal p {
   color: var(--neutros-medium, #67626F);
-  font-family: Work Sans;
+  font-family: 'Work Sans', sans-serif !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +189,7 @@
   }
   .header_carousal h2 {
     color: var(--paleta-blue-dark, #002863);
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif !important;
     font-size: 24px !important;
     font-style: normal;
     font-weight: 600;

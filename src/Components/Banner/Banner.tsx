@@ -3,7 +3,7 @@ import blurleft from "../../assets/Blur.png";
 import blurright from "../../assets/Blur1.png";
 const Banner = () => {
   return (
-    <div>
+    <>
       <div className="banner_bg blur_left_parent">
         <div className="blur_image1">
           <img src={blurright} alt="" />
@@ -27,7 +27,7 @@ const Banner = () => {
           <img src={blurleft} alt="" />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
